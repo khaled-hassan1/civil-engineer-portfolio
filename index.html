@@ -31,8 +31,11 @@
     <link rel="alternate" hreflang="en" href="https://yourwebsite.com/en-version.html">
     <link rel="alternate" hreflang="ar" href="https://yourwebsite.com/ar-version.html">
     <link rel="alternate" hreflang="x-default" href="https://yourwebsite.com/en-version.html">
+
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,6 +49,9 @@
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#B78D65">
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-ar.css" rel="stylesheet">
@@ -74,6 +80,14 @@
       }
     }
     </script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(reg => console.log('Service worker registered'))
+                .catch(err => console.error('Service worker error', err));
+        }
+    </script>
+
 </head>
 
 <body>
