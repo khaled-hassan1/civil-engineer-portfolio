@@ -1,12 +1,13 @@
 {
-    "name": "Civil Engineer",
-    "short_name": "Engineer",
-    "start_url": "/",
+    "name": "Aya Alsaadi – Civil Engineer",
+    "short_name": "Aya Alsaadi",
+    "start_url": "/?utm_source=homescreen",
+    "scope": "/",
     "display": "standalone",
+    "orientation": "portrait",
     "background_color": "#ffffff",
     "theme_color": "#B78D65",
-    "description": "A portfolio showcasing my work as a civil engineer.",
-    "orientation": "portrait",
+    "description": "Professional portfolio of Eng. Aya Alsaadi, Civil Engineer.",
     "icons": [
         {
             "src": "img/icons/icon-192x192.png",
@@ -17,6 +18,33 @@
             "src": "img/icons/icon-512x512.png",
             "type": "image/png",
             "sizes": "512x512"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "img/project1-1.jpg",
+            "type": "image/jpg",
+            "sizes": "667x1000"
+        },
+        {
+            "src": "img/project2-1.jpg",
+            "type": "image/jpg",
+            "sizes": "667x1000"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Projects",
+            "short_name": "Projects",
+            "description": "View Aya Alsaadi's projects",
+            "url": "/projects",
+            "icons": [
+                {
+                    "src": "img/project1-1.jpg",
+                    "type": "image/jpg",
+                    "sizes": "669x1000"
+                }
+            ]
         }
     ]
 }

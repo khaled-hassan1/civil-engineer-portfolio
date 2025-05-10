@@ -82,12 +82,14 @@
     </script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
-                .then(reg => console.log('Service worker registered'))
-                .catch(err => console.error('Service worker error', err));
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('SW registered:', reg.scope))
+                    .catch(err => console.error('SW registration failed:', err));
+            });
         }
     </script>
-
+<link rel="manifest" href="manifest.webmanifest" />
 </head>
 
 <body>
@@ -110,7 +112,8 @@
                         <span class="ltr-number topbar">+012 345 6789</span>
                     </a>
                     <a class="text-body px-2" href="mailto:ayaalsaadi304@gmail.com"><i
-                            class="fa fa-envelope-open text-primary me-2"></i><span class="topbar">ayaalsaadi304@gmail.com</span></a>
+                            class="fa fa-envelope-open text-primary me-2"></i><span
+                            class="topbar">ayaalsaadi304@gmail.com</span></a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -130,7 +133,8 @@
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
         data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/icons/icon-1.png" alt="Icon"><Span class="brand" id="brand">Aya
+            <h1 class="text-primary m-0"><img class="me-3" src="img/icons/icon-1.png" alt="Icon"><Span class="brand"
+                    id="brand">Aya
                     Alsaadi</Span></h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
