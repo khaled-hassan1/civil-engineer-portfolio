@@ -94,6 +94,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const languageButton = document.getElementById("languageButton");
 
     const elementsToTranslate = {
+        // Brand
+        "brand": { en: "Aya Alsaadi", ar: "آية السعدي" },
         // Navigation
         "homeNav": { en: "Home", ar: "الرئيسية" },
         "homeNav2": { en: "Home", ar: "الرئيسية" },
@@ -151,6 +153,37 @@ document.addEventListener("DOMContentLoaded", function () {
             en: "From concept to completion, I manage timelines, quality, and coordination to deliver results with integrity and precision.",
             ar: "من المفهوم إلى الاكتمال، أدير الجداول الزمنية والجودة والتنسيق لتقديم نتائج بنزاهة ودقة."
         },
+        // ─── Facts (new) ──────────────────────────────────────────
+        "factTitle4": { en: "Functional Design", ar: "التصميم الوظيفي" },
+        "factText4": {
+            en: "Layouts that optimise space utilisation, circulation and building performance.",
+            ar: "مخططات توظِّف المساحات وتدفق الحركة لتحسين أداء المبنى."
+        },
+
+        "factTitle5": { en: "Aesthetic Appeal", ar: "الجاذبية الجمالية" },
+        "factText5": {
+            en: "Harmonising form, colour, texture and proportion to create visual impact.",
+            ar: "تناغم الشكل واللون والملمس والنِّسب لإضفاء تأثير بصري جذّاب."
+        },
+
+        "factTitle6": { en: "Sustainable Practices", ar: "الممارسات المستدامة" },
+        "factText6": {
+            en: "Eco‑friendly materials, energy efficiency and lifecycle conscious solutions.",
+            ar: "مواد صديقة للبيئة وكفاءة طاقة وحلول تراعي دورة الحياة."
+        },
+
+        "factTitle7": { en: "User Experience", ar: "تجربة المستخدم" },
+        "factText7": {
+            en: "Designs that enhance comfort, accessibility and overall satisfaction.",
+            ar: "تصميمات تعزّز الراحة وسهولة الوصول ورضا المستخدم بشكل عام."
+        },
+
+        "factTitle8": { en: "Cultural Context", ar: "السياق الثقافي" },
+        "factText8": {
+            en: "Reflecting local identity and heritage while embracing modern needs.",
+            ar: "تعكس الهوية والتراث المحلي مع تلبية الاحتياجات العصرية."
+        },
+
 
         // About
         "aboutTitle": { en: "About Us", ar: "من نحن" },
@@ -221,6 +254,31 @@ document.addEventListener("DOMContentLoaded", function () {
             en: "Development of Gantt charts, CPM schedules, and resource allocation plans for construction phases.",
             ar: "تطوير مخططات جانت وجداول CPM وخطط تخصيص الموارد لمراحل البناء."
         },
+        // ─── Services ─────────────────────────────────────────────
+        "serviceTitle7": { en: "Architectural Design", ar: "التصميم المعماري" },
+        "serviceText7": {
+            en: "Comprehensive & advanced architectural designs for residential, administrative and commercial buildings, including structural, electrical‑plumbing planning, façade and fencing design.",
+            ar: "تصميمات معمارية متكاملة ومتطورة للمباني السكنية والإدارية والتجارية، تشمل المخططات الإنشائية والكهربائية والصحية، إلى جانب تصميم الواجهات والأسوار."
+        },
+
+        "serviceTitle8": { en: "Interior Design", ar: "التصميم الداخلي" },
+        "serviceText8": {
+            en: "Innovative interior design solutions for residential, commercial and hospitality spaces: layout, furniture, lighting, colour schemes and décor.",
+            ar: "حلول تصميم داخلي مبتكرة للمساحات السكنية والتجارية والفندقية تشمل تنسيق الفراغات، اختيار الأثاث، تصميم الإضاءة، الألوان والعناصر الزخرفية."
+        },
+
+        "serviceTitle9": { en: "Engineering Supervision", ar: "الإشراف الهندسي" },
+        "serviceText9": {
+            en: "Execution supervision, quality management, performance evaluation, reporting, problem‑resolution, communication and coordination among stakeholders.",
+            ar: "إشراف على التنفيذ، إدارة الجودة، تقييم الأداء، إعداد التقارير، حل المشكلات، والتواصل والتنسيق بين جميع الأطراف المعنية."
+        },
+
+        "serviceTitle10": { en: "Subdivision", ar: "الفرز" },
+        "serviceText10": {
+            en: "Dividing residential land into parcels under an approved engineering plan to ensure compliance and efficient land‑use.",
+            ar: "تقسيم الأراضي السكنية إلى قطع وفق مخطط هندسي معتمد، لضمان الامتثال وتسهيل التخطيط الفعّال لاستخدام الأرض."
+        },
+
 
         // Feature
         "whyChooseTitle": { en: "Why Choose Me!", ar: "لماذا تختارني!" },

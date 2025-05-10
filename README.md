@@ -70,7 +70,7 @@ civil-engineer-portfolio/
 | **Primary color**     | change `--primary` in `css/style.css`                                |
 | **Carousel images**   | replace files in `img/carousel‑*.jpg` (1920×1080 ideal)              |
 | **Add services**      | duplicate a `.service-item` card in **index.html**                   |
-| **Contact info**      | search `+012 345 6789` and `info@example.com` across HTML files      |
+| **Contact info**      | search `+012 345 6789` and `ayaalsaadi304@gmail.com` across HTML files      |
 | **Translate text**    | add IDs in HTML and entries in `elementsToTranslate` in `js/main.js` |
 
 ---
@@ -139,6 +139,6 @@ Attribution (footer link or a GitHub ⭐) is appreciated but **not required**.
 ## ✍️ Author / Maintainer
 
 **\[Your Name]** — Civil Engineer, Structural Design & Construction Management
-[Portfolio](https://yourwebsite.com) | [LinkedIn](https://linkedin.com/) | [Twitter](https://twitter.com/)
+[Portfolio](https://ayaalsaadi.com) | [LinkedIn](https://linkedin.com/) | [Twitter](https://twitter.com/)
 
 Feel free to open issues or pull requests to improve the template!
