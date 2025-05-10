@@ -94,6 +94,101 @@ document.addEventListener("DOMContentLoaded", function () {
     const languageButton = document.getElementById("languageButton");
 
     const elementsToTranslate = {
+        // Projects section
+        "projectsTitle": {
+            en: "Our Projects",
+            ar: "مشاريعنا"
+        },
+        "projectsHeading": {
+            en: "Visit Our Latest Projects And Our Innovative Works",
+            ar: "تصفَّح أحدث مشاريعنا وأعمالنا الابتكارية"
+        },
+        "project1": {
+            en: "01. Boutique Hotel",
+            ar: "01. فندق بوتيك"
+        },
+        "project2": {
+            en: "02. Car Museum",
+            ar: "02. متحف السيارات"
+        },
+        "project3": {
+            en: "03. Convention Center",
+            ar: "03. مركز المؤتمرات"
+        },
+        "project4": {
+            en: "04. Mixed‑Use High‑Rise Building",
+            ar: "04. برج متعدد الاستخدامات"
+        },
+        // ===== Boutique Hotel =====
+        "proj1Heading": {
+            en: "Boutique Hotel – Elegant Urban Retreat",
+            ar: "فندق بوتيك – ملاذ حضري أنيق"
+        },
+        "proj1Desc": {
+            en: "A 70‑room boutique hotel blending contemporary design with local heritage. Focus on smart space planning, daylight optimisation and LEED‑Gold sustainability.",
+            ar: "فندق يضم 70 غرفة يمزج بين التصميم العصري والتراث المحلي، مع تركيز على التخطيط الذكي للإضاءة الطبيعية ومعايير الاستدامة (شهادة LEED‑Gold)."
+        },
+        "proj1Point1": { en: "Context‑Sensitive Façade", ar: "واجهة منسجمة مع السياق" },
+        "proj1Point2": { en: "Energy‑Efficient MEP", ar: "أنظمة كهروميكانيكية موفرة للطاقة" },
+        "proj1Point3": { en: "Turn‑key Delivery", ar: "تسليم مفتاح" },
+        "proj1Btn": { en: "Read More", ar: "اقرأ المزيد" },
+
+        // ===== Car Museum =====
+        "proj2Heading": {
+            en: "Car Museum – Iconic Exhibition Space",
+            ar: "متحف السيارات – مساحة عرض مميزة"
+        },
+        "proj2Desc": {
+            en: "A landmark museum featuring a spiralling ramp gallery for 200 classic cars, interactive lighting and advanced climate control.",
+            ar: "متحف بارز يضم منحدراً حلزونياً يعرض 200 سيارة كلاسيكية، مع إضاءة تفاعلية وأنظمة تحكم مناخي متطورة."
+        },
+        "proj2Point1": { en: "Spiral Circulation", ar: "حركة دائرية حلزونية" },
+        "proj2Point2": { en: "Immersive Media Walls", ar: "جدران وسائط غامرة" },
+        "proj2Point3": { en: "BIM‑Based Coordination", ar: "تنسيق معتمد على BIM" },
+        "proj2Btn": { en: "Read More", ar: "اقرأ المزيد" },
+
+        // ===== Convention Center =====
+        "proj3Heading": {
+            en: "Convention Center – Flexible Event Hub",
+            ar: "مركز مؤتمرات – محور فعاليات متعدد الاستخدام"
+        },
+        "proj3Desc": {
+            en: "60 000 m² convention centre offering divisible halls, retractable seating and a column‑free main ballroom for 4 500 guests.",
+            ar: "مركز مؤتمرات بمساحة 60 ألف م² يقدّم قاعات قابلة للتقسيم، مقاعد متحركة، وقاعة احتفالات رئيسية بدون أعمدة تتسع لـ 4500 زائر."
+        },
+        "proj3Point1": { en: "Column‑Free Span 60 m", ar: "مسافة بلا أعمدة 60 م" },
+        "proj3Point2": { en: "Acoustic Isolation STC 55", ar: "عزل صوتي STC 55" },
+        "proj3Point3": { en: "Fast‑Track Schedule", ar: "برنامج تنفيذ سريع" },
+        "proj3Btn": { en: "Read More", ar: "اقرأ المزيد" },
+
+        // ===== Mixed‑Use High‑Rise =====
+        "proj4Heading": {
+            en: "Mixed‑Use High‑Rise – Vertical City",
+            ar: "برج متعدد الاستخدام – مدينة عمودية"
+        },
+        "proj4Desc": {
+            en: "80‑storey, 320 m tower combining offices, serviced apartments and a sky‑garden. Designed to withstand 250 km/h wind loads and seismic zone 2B.",
+            ar: "برج بارتفاع 320 م (80 طابقاً) يضم مكاتب وشققاً فندقية وحديقة سماوية، مصمّم لتحمل رياح 250 كم/س ومنطقة زلزالية 2B."
+        },
+        "proj4Point1": { en: "Outrigger + Belt Truss", ar: "نظام ربط عاتق وحزام" },
+        "proj4Point2": { en: "Triple‑Low‑E Curtainwall", ar: "واجهة زجاجية منخفضة الانبعاث ×3" },
+        "proj4Point3": { en: "Sky‑Garden Level 55", ar: "حديقة سماوية في الطابق 55" },
+        "proj4Btn": { en: "Read More", ar: "اقرأ المزيد" },
+
+        // ===== Projects (Boutique Hotel) =====
+        "proj1Heading": {
+            en: "12 Years Of Experience In Architecture Industry",
+            ar: "12 عامًا من الخبرة في قطاع العمارة"
+        },
+        "proj1Desc": {
+            en: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.",
+            ar: "خبرة واسعة في تصميم الفنادق البوتيكية مع التركيز على التفاصيل الجمالية والاستدامة، باستخدام أحدث الأساليب الهندسية لضمان الجودة والراحة."
+        },
+        "proj1Point1": { en: "Design Approach", ar: "منهجية التصميم" },
+        "proj1Point2": { en: "Innovative Solutions", ar: "حلول مبتكرة" },
+        "proj1Point3": { en: "Project Management", ar: "إدارة المشروع" },
+        "proj1Btn": { en: "Read More", ar: "اقرأ المزيد" },
+
         // Brand
         "brand": { en: "Aya Alsaadi", ar: "آية السعدي" },
         // Navigation
@@ -107,6 +202,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "aboutNav3": { en: "About", ar: "من نحن" },
         "aboutNav4": { en: "About us", ar: "من نحن" },
         "aboutNav5": { en: "About", ar: "من نحن" },
+        "projects": { en: "Projects", ar: "المشاريع" },
+        "projects2": { en: "Projects", ar: "المشاريع" },
+        "projects3": { en: "Projects", ar: "المشاريع" },
+        "projects4": { en: "Projects", ar: "المشاريع" },
         "servicesNav": { en: "Services", ar: "الخدمات" },
         "servicesNav2": { en: "Services", ar: "الخدمات" },
         "servicesNav3": { en: "Services", ar: "الخدمات" },
@@ -115,6 +214,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "contactNav2": { en: "Contact", ar: "اتصل بنا" },
         "contactNav3": { en: "Contact", ar: "اتصل بنا" },
         "contactNav4": { en: "Contact", ar: "اتصل بنا" },
+        "contactNav5": { en: "Contact", ar: "اتصل بنا" },
         "languageButton": { en: "عربي", ar: "English" },
 
         // Carousel
