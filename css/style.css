@@ -7,19 +7,19 @@
     --primary: #B78D65;
     --light: #F8F8F8;
     --dark: #252525;
-    --font-primary-en: 'Teko', sans-serif;
-    --font-secondary-en: 'Open Sans', sans-serif;
+    /* --font-secondary-en: 'Teko', sans-serif; */
+    --font-primary-en: 'Open Sans', sans-serif;
     --font-primary-ar: 'Cairo', sans-serif;
 }
 
 body {
-    font-family: var(--font-secondary-en);
+    font-family: var(--font-primary-en);
     /* Default to English font */
     color: #555;
     /* Slightly softer than pure black for body text */
 }
 
-html[lang="ar"] body {
+[lang="ar"] body {
     font-family: var(--font-primary-ar);
 }
 

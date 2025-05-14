@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "proj1Btn": { en: "Read More", ar: "اقرأ المزيد" },
 
         // Brand
-        "brand": { en: "Arch.Aya Alsaadi", ar: "آية السعدي" },
+        "brand": { en: "Arch.Aya Alsaadi", ar: "م.آية السعدي" },
         // Navigation
         "homeNav": { en: "Home", ar: "الرئيسية" },
         "homeNav2": { en: "Home", ar: "الرئيسية" },
@@ -208,10 +208,10 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects2": { en: "Projects", ar: "المشاريع" },
         "projects3": { en: "Projects", ar: "المشاريع" },
         "projects4": { en: "Projects", ar: "المشاريع" },
-        "servicesNav": { en: "Services", ar: "الخدمات" },
-        "servicesNav2": { en: "Services", ar: "الخدمات" },
-        "servicesNav3": { en: "Services", ar: "الخدمات" },
-        "servicesNav4": { en: "Services", ar: "الخدمات" },
+        "servicesNav": { en: "Our business", ar: "أعمالنا" },
+        "servicesNav2": { en: "Our business", ar: "أعمالنا" },
+        "servicesNav3": { en: "Our business", ar: "أعمالنا" },
+        "servicesNav4": { en: "Our business", ar: "أعمالنا" },
         "contactNav": { en: "Contact", ar: "اتصل بنا" },
         "contactNav2": { en: "Contact", ar: "اتصل بنا" },
         "contactNav3": { en: "Contact", ar: "اتصل بنا" },
@@ -470,16 +470,16 @@ document.addEventListener("DOMContentLoaded", function () {
         "contactFooterTitle3": { en: "Contact us", ar: "تواصل بنا" },
         "addressText": { en: "123 Engineering St, City, Country", ar: "123 شارع الهندسة، المدينة، الدولة" },
         "addressText2": { en: "123 Engineering St, City, Country", ar: "123 شارع الهندسة، المدينة، الدولة" },
-        "engineeringServicesTitle": { en: "Engineering Services", ar: "الخدمات الهندسية" },
-        "engineeringServicesTitle2": { en: "Engineering Services", ar: "الخدمات الهندسية" },
+        "engineeringServicesTitle": { en: "Engineering Services", ar: "أعمالنا الهندسية" },
+        "engineeringServicesTitle2": { en: "Engineering Services", ar: "أعمالنا الهندسية" },
         "quickLinksTitle": { en: "Quick Links", ar: "روابط سريعة" },
         "quickLinksTitle2": { en: "Quick Links", ar: "روابط سريعة" },
         "aboutMeLink": { en: "About Me", ar: "عني" },
         "aboutMeLink2": { en: "About Me", ar: "عني" },
         "contactLink": { en: "Contact", ar: "اتصل" },
         "contactLink2": { en: "Contact", ar: "اتصل" },
-        "servicesLink": { en: "Services", ar: "الخدمات" },
-        "servicesLink2": { en: "Services", ar: "الخدمات" },
+        "servicesLink": { en: "Our business", ar: "أعمالنا" },
+        "servicesLink2": { en: "Our business", ar: "أعمالنا" },
         "structuralLink": { en: "Structural Design", ar: "التصميم الإنشائي" },
         "structuralLink2": { en: "Structural Design", ar: "التصميم الإنشائي" },
         "supervisionLink": { en: "Project Supervision", ar: "الإشراف على المشروع" },
@@ -524,3 +524,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     updateLanguage(); // تطبيق اللغة المختارة عند تحميل الصفحة
 });
+
+document.getElementById('currentYear').textContent = new Date().getFullYear();
