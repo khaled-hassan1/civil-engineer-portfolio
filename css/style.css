@@ -327,6 +327,12 @@ html[lang="ar"] .justify-content-start {
     background: rgba(0, 0, 0, .5);
 }
 
+/* .header-carousel .owl-carousel-item img {
+    
+    height: 100%;
+} */
+
+
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;

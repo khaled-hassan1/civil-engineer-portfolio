@@ -1,13 +1,13 @@
 {
-    "name": "Aya Alsaadi – Civil Engineer",
-    "short_name": "Aya Alsaadi",
+    "name": "Arch.Aya Alsaadi – Civil Engineer",
+    "short_name": "Arch.Aya Alsaadi",
     "start_url": "/?utm_source=homescreen",
     "scope": "/",
     "display": "standalone",
     "orientation": "portrait",
     "background_color": "#ffffff",
     "theme_color": "#B78D65",
-    "description": "Professional portfolio of Arch.Aya Alsaadi, Civil Engineer.",
+    "description": "Professional portfolio of Arch.Arch.Aya Alsaadi, Civil Engineer.",
     "icons": [
         {
             "src": "img/icons/icon-192x192.png",
@@ -36,7 +36,7 @@
         {
             "name": "Projects",
             "short_name": "Projects",
-            "description": "View Aya Alsaadi's projects",
+            "description": "View Arch.Aya Alsaadi's projects",
             "url": "/projects",
             "icons": [
                 {

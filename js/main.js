@@ -90,6 +90,8 @@
 })(jQuery);
 
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const languageButton = document.getElementById("languageButton");
 
@@ -190,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "proj1Btn": { en: "Read More", ar: "اقرأ المزيد" },
 
         // Brand
-        "brand": { en: "Aya Alsaadi", ar: "آية السعدي" },
+        "brand": { en: "Arch.Aya Alsaadi", ar: "آية السعدي" },
         // Navigation
         "homeNav": { en: "Home", ar: "الرئيسية" },
         "homeNav2": { en: "Home", ar: "الرئيسية" },
