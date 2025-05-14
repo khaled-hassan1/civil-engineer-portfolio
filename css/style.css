@@ -58,7 +58,7 @@ h6,
 [lang="ar"] .brand {
     font-family: "Cairo";
     font-weight: 900;
-    font-size: 35px;
+    font-size: 18px;
 
 }
 
@@ -237,7 +237,7 @@ html[lang="ar"] .justify-content-start {
 
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
-    padding: 30px 0;
+    padding: 10px 0;
     color: var(--dark);
     font-weight: 500;
     text-transform: uppercase;
@@ -282,6 +282,36 @@ html[lang="ar"] .justify-content-start {
         transition: .5s;
         opacity: 1;
     }
+}
+
+/* 1) Shrink the overall navbar padding */
+.navbar {
+    /* override Bootstrap’s default .5rem top/bottom */
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+/* 2) Force a max-height on your brand logo and tighten line-height */
+.navbar-brand img {
+    max-height: 40px;
+    height: auto;
+}
+
+.navbar-brand h1 {
+    font-size: 1.5rem;
+    /* smaller than default h1 */
+    line-height: 1;
+    /* no extra breathing room */
+    margin: 0;
+    /* you already have m-0, just reiterating */
+}
+
+/* 3) Tweak your nav-link padding */
+.navbar .navbar-nav .nav-link {
+    padding-top: 2px;
+    /* reduce from 5px */
+    padding-bottom: 2px;
+    /* reduce from 5px */
 }
 
 
