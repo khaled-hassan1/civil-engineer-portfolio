@@ -312,8 +312,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // Carousel
         "carouselTitle1": { en: "Building Tomorrow’s Infrastructure", ar: "بناء البنية التحتية للمستقبل" },
         "carouselText1": {
-            en: "From bridges and highways to residential foundations, I deliver reliable and durable civil engineering solutions across all project scales.",
-            ar: "من الجسور والطرق السريعة إلى الأساسات السكنية، أقدم حلول هندسية مدنية موثوقة ومتينة لجميع أحجام المشاريع."
+            en: "From innovative building designs to sustainable urban planning, I deliver creative and functional architectural engineering solutions across various project types.",
+            ar: "من تصاميم المباني المبتكرة إلى التخطيط الحضري المستدام، أقدم حلول هندسية معمارية إبداعية وعملية لمختلف أنواع المشاريع."
         },
         "carouselButton1": { en: "My Services", ar: "خدماتي" },
         "carouselButton2": { en: "My Services", ar: "خدماتي" },
@@ -416,7 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Services
         "expertiseTitle": { en: "My Expertise", ar: "خبرتي" },
-        "expertiseHeading": { en: "Comprehensive Civil Engineering Services", ar: "خدمات هندسية مدنية شاملة" },
+        "expertiseHeading": { en: "Comprehensive Architectural Engineering Services", ar: "خدمات هندسية معمارية شاملة" },
         "serviceTitle1": { en: "Structural Design", ar: "التصميم الهيكلي" },
         "serviceText1": {
             en: "Design and analysis of buildings and structures to ensure safety, durability, and code compliance.",
