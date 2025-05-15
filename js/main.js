@@ -105,91 +105,178 @@ document.addEventListener("DOMContentLoaded", function () {
             en: "Visit Our Latest Projects And Our Innovative Works",
             ar: "تصفَّح أحدث مشاريعنا وأعمالنا الابتكارية"
         },
-        "project1": {
-            en: "01. Boutique Hotel",
-            ar: "01. فندق بوتيك"
-        },
-        "project2": {
-            en: "02. Car Museum",
-            ar: "02. متحف السيارات"
-        },
         "project3": {
-            en: "03. Convention Center",
-            ar: "03. مركز المؤتمرات"
+            en: "03. Boutique Hotel",
+            ar: "03. فندق بوتيك"
         },
+        "project1": {
+            "en": "01. French Restaurant",
+            "ar": "01. المطعم الفرنسي"
+        },
+
+        "project2": {
+            "en": "02. AL-Waha Boulevard",
+            "ar": "02. الواحة بوليڤارد"
+        },
+
         "project4": {
             en: "04. Mixed‑Use High‑Rise Building",
             ar: "04. برج متعدد الاستخدامات"
         },
-        // ===== Boutique Hotel =====
+        "project5": {
+            en: "05. Villa Complex",
+            ar: "05. مجمع الفلل"
+        },
+        "project6": {
+            en: "06. Car Museum",
+            ar: "06. متحف السيارات"
+        },
+        "project7": {
+            en: "07. Convention Center",
+            ar: "07. مركز المؤتمرات"
+        },
+
+        // ===== French Restaurant =====
         "proj1Heading": {
+            "en": "French Restaurant – Sophisticated Dining Experience",
+            "ar": "المطعم الفرنسي – تجربة طعام راقية"
+        },
+        "proj1Desc": {
+            "en": "An elegant French restaurant featuring intimate table settings, ambient warm lighting, and custom wood partitions that evoke the charm of a Parisian bistro.",
+            "ar": "مطعم فرنسي أنيق يتميز بأجواء حميمة على الطاولات، إضاءة دافئة وجذابة، وفواصل خشبية مخصصة تعكس سحر البسترو الباريسي."
+        },
+        "proj1Point1": {
+            "en": "Fine French Cuisine",
+            "ar": "مأكولات فرنسية فاخرة"
+        },
+        "proj1Point2": {
+            "en": "Ambient Warm Lighting",
+            "ar": "إضاءة دافئة وجذابة"
+        },
+        "proj1Point3": {
+            "en": "Elegant Wood Partitions",
+            "ar": "فواصل خشبية أنيقة"
+        }
+        ,
+
+        // ===== AL-Waha Boulevard =====
+
+        "proj2Heading": {
+            en: "AL-Waha Boulevard – Premium Commercial Complex",
+            ar: "بوليفارد الواحة – مجمع تجاري متميز"
+        },
+        "proj2Desc": {
+            en: "60,000 m² commercial boulevard featuring spacious retail areas, modern office spaces, and an elegant central plaza designed for optimal visitor experience and business functionality.",
+            ar: "بوليفارد تجاري بمساحة 60 ألف م² يضم مناطق تسوق واسعة، ومساحات مكتبية حديثة، وساحة مركزية أنيقة مصممة لتوفير تجربة مثالية للزوار وفعالية عملية للأعمال."
+        },
+        "proj2Point1": { en: "Sustainable Design", ar: "تصميم مستدام" },
+        "proj2Point2": { en: "Premium Finishes", ar: "تشطيبات فاخرة" },
+        "proj2Point3": { en: "Integrated Smart Systems", ar: "أنظمة ذكية متكاملة" },
+
+        // ===== Boutique Hotel =====
+        "proj3Heading": {
             en: "Boutique Hotel – Elegant Urban Retreat",
             ar: "فندق بوتيك – ملاذ حضري أنيق"
         },
-        "proj1Desc": {
+        "proj3Desc": {
             en: "A 70‑room boutique hotel blending contemporary design with local heritage. Focus on smart space planning, daylight optimisation and LEED‑Gold sustainability.",
             ar: "فندق يضم 70 غرفة يمزج بين التصميم العصري والتراث المحلي، مع تركيز على التخطيط الذكي للإضاءة الطبيعية ومعايير الاستدامة (شهادة LEED‑Gold)."
         },
-        "proj1Point1": { en: "Context‑Sensitive Façade", ar: "واجهة منسجمة مع السياق" },
-        "proj1Point2": { en: "Energy‑Efficient MEP", ar: "أنظمة كهروميكانيكية موفرة للطاقة" },
-        "proj1Point3": { en: "Turn‑key Delivery", ar: "تسليم مفتاح" },
-        "proj1Btn": { en: "Read More", ar: "اقرأ المزيد" },
+        "proj3Point1": { en: "Context‑Sensitive Façade", ar: "واجهة منسجمة مع السياق" },
+        "proj3Point2": { en: "Energy‑Efficient MEP", ar: "أنظمة كهروميكانيكية موفرة للطاقة" },
+        "proj3Point3": { en: "Turn‑key Delivery", ar: "تسليم مفتاح" },
 
-        // ===== Car Museum =====
-        "proj2Heading": {
-            en: "Car Museum – Iconic Exhibition Space",
-            ar: "متحف السيارات – مساحة عرض مميزة"
-        },
-        "proj2Desc": {
-            en: "A landmark museum featuring a spiralling ramp gallery for 200 classic cars, interactive lighting and advanced climate control.",
-            ar: "متحف بارز يضم منحدراً حلزونياً يعرض 200 سيارة كلاسيكية، مع إضاءة تفاعلية وأنظمة تحكم مناخي متطورة."
-        },
-        "proj2Point1": { en: "Spiral Circulation", ar: "حركة دائرية حلزونية" },
-        "proj2Point2": { en: "Immersive Media Walls", ar: "جدران وسائط غامرة" },
-        "proj2Point3": { en: "BIM‑Based Coordination", ar: "تنسيق معتمد على BIM" },
-        "proj2Btn": { en: "Read More", ar: "اقرأ المزيد" },
-
-        // ===== Convention Center =====
-        "proj3Heading": {
-            en: "Convention Center – Flexible Event Hub",
-            ar: "مركز مؤتمرات – محور فعاليات متعدد الاستخدام"
-        },
-        "proj3Desc": {
-            en: "60 000 m² convention centre offering divisible halls, retractable seating and a column‑free main ballroom for 4 500 guests.",
-            ar: "مركز مؤتمرات بمساحة 60 ألف م² يقدّم قاعات قابلة للتقسيم، مقاعد متحركة، وقاعة احتفالات رئيسية بدون أعمدة تتسع لـ 4500 زائر."
-        },
-        "proj3Point1": { en: "Column‑Free Span 60 m", ar: "مسافة بلا أعمدة 60 م" },
-        "proj3Point2": { en: "Acoustic Isolation STC 55", ar: "عزل صوتي STC 55" },
-        "proj3Point3": { en: "Fast‑Track Schedule", ar: "برنامج تنفيذ سريع" },
-        "proj3Btn": { en: "Read More", ar: "اقرأ المزيد" },
 
         // ===== Mixed‑Use High‑Rise =====
         "proj4Heading": {
-            en: "Mixed‑Use High‑Rise – Vertical City",
-            ar: "برج متعدد الاستخدام – مدينة عمودية"
+            "en": "Mixed-Use Complex & High-Rise – Coastal Landmark",
+            "ar": "مجمع متعدد الاستخدامات وبرج مرتفع – معلم ساحلي"
         },
         "proj4Desc": {
-            en: "80‑storey, 320 m tower combining offices, serviced apartments and a sky‑garden. Designed to withstand 250 km/h wind loads and seismic zone 2B.",
-            ar: "برج بارتفاع 320 م (80 طابقاً) يضم مكاتب وشققاً فندقية وحديقة سماوية، مصمّم لتحمل رياح 250 كم/س ومنطقة زلزالية 2B."
+            "en": "A dynamic mixed-use complex with a curving retail podium and promenade, capped by two high-rise towers housing residential and office spaces. Sky-bridges, rooftop gardens, and panoramic sea views define its coastal identity.",
+            "ar": "مجمع ديناميكي متعدد الاستخدامات بمنصة تجزئة منحنية وممشى بحري، تتوج به برجتان مرتفعتان يضمان وحدات سكنية ومكاتب. جسور سماء وحدائق على الأسطح وإطلالات بانورامية على البحر تميز الهوية الساحلية للمشروع."
         },
-        "proj4Point1": { en: "Outrigger + Belt Truss", ar: "نظام ربط عاتق وحزام" },
-        "proj4Point2": { en: "Triple‑Low‑E Curtainwall", ar: "واجهة زجاجية منخفضة الانبعاث ×3" },
-        "proj4Point3": { en: "Sky‑Garden Level 55", ar: "حديقة سماوية في الطابق 55" },
-        "proj4Btn": { en: "Read More", ar: "اقرأ المزيد" },
+        "proj4Point1": {
+            "en": "Curved Podium & Promenade",
+            "ar": "منصة منحنية وممشى بحري"
+        },
+        "proj4Point2": {
+            "en": "Interconnected Sky-Bridges",
+            "ar": "جسور سماء متصلة"
+        },
+        "proj4Point3": {
+            "en": "Rooftop Gardens & Sea Views",
+            "ar": "حدائق على الأسطح وإطلالات بحرية"
+        }
+        ,
+        // ===== Villa Complex =====
+        "proj5Heading": {
+            "en": "Villa Complex – Modern Terrace Residences",
+            "ar": "مجمع الفلل – مساكن تراس عصرية"
+        },
+        "proj5Desc": {
+            "en": "A contemporary villa complex featuring clean-lined façades with warm wood accents, private garages, landscaped front yards, and rooftop terraces. Designed for family comfort with integrated security and shared green spaces.",
+            "ar": "مجمع فلل معاصرة يتميز بواجهات نظيفة مع لمسات خشبية دافئة، مداخل ومرائب خاصة، حدائق أمامية منسقة، وتراسات على الأسطح. صُمّم لراحة العائلة مع تكامل الأمان ومساحات خضراء مشتركة."
+        },
+        "proj5Point1": {
+            "en": "Private Garages & Entrances",
+            "ar": "مداخل ومرائب خاصة"
+        },
+        "proj5Point2": {
+            "en": "Rooftop Terraces & Balconies",
+            "ar": "تراسات وشرفات خاصة"
+        },
+        "proj5Point3": {
+            "en": "Landscaped Front Yards",
+            "ar": "حدائق أمامية منسقة"
+        }
+        ,
 
-        // ===== Projects (Boutique Hotel) =====
-        "proj1Heading": {
-            en: "12 Years Of Experience In Architecture Industry",
-            ar: "12 عامًا من الخبرة في قطاع العمارة"
+        // ===== Car Museum =====
+        "proj6Heading": {
+            "en": "Car Museum – Innovative Exhibition Pavilion",
+            "ar": "متحف السيارات – جناح عرض مبتكر"
         },
-        "proj1Desc": {
-            en: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.",
-            ar: "خبرة واسعة في تصميم الفنادق البوتيكية مع التركيز على التفاصيل الجمالية والاستدامة، باستخدام أحدث الأساليب الهندسية لضمان الجودة والراحة."
+        "proj6Desc": {
+            "en": "This car museum features an angular, pavilion-style roof geometry and integrated pathways set against a dramatic cliff backdrop. The design includes flexible galleries, covered outdoor exhibits, and seamless visitor circulation.",
+            "ar": "يتميز هذا المتحف بعناصر سقفية هندسية زاويّة على شكل جناح ومسارات متكاملة أمام واجهة صخرية درامية. يتضمن التصميم صالات عرض مرنة، ومعارض خارجية مغطاة، وتنقل سلس للزوار."
         },
-        "proj1Point1": { en: "Design Approach", ar: "منهجية التصميم" },
-        "proj1Point2": { en: "Innovative Solutions", ar: "حلول مبتكرة" },
-        "proj1Point3": { en: "Project Management", ar: "إدارة المشروع" },
-        "proj1Btn": { en: "Read More", ar: "اقرأ المزيد" },
+        "proj6Point1": {
+            "en": "Pavilion-Style Roof Geometry",
+            "ar": "هندسة سقوف على هيئة جناح"
+        },
+        "proj6Point2": {
+            "en": "Seamless Visitor Circulation",
+            "ar": "تنقل سلس للزوار"
+        },
+        "proj6Point3": {
+            "en": "Flexible Exhibition Spaces",
+            "ar": "مساحات عرض مرنة"
+        },
+
+        // ===== Convention Center =====
+        "proj7Heading": {
+            "en": "Convention Center – Geodesic Dome Complex",
+            "ar": "مركز المؤتمرات – مجمع القباب الجيوديسية"
+        },
+        "proj7Desc": {
+            "en": "A dynamic convention center formed of interconnected geodesic domes beneath a sweeping curved roof, nestled against the hillside. Features include flexible multi-level halls, an integrated rainwater collection basin, and seamless indoor-outdoor circulation.",
+            "ar": "مركز مؤتمرات ديناميكي يتألف من قبب جيوديسية متصلة تحت سقف منحني انسيابي، مدموج مع التضاريس الجبلية. يضم صالات مرنة متعددة المستويات، حوضًا لتجميع مياه الأمطار، وتنقّلًا سلسًا بين المساحات الداخلية والخارجية."
+        },
+        "proj7Point1": {
+            "en": "Interconnected Geodesic Domes",
+            "ar": "قبب جيوديسية متصلة"
+        },
+        "proj7Point2": {
+            "en": "Rainwater Collection Basin",
+            "ar": "حوض لتجميع مياه الأمطار"
+        },
+        "proj7Point3": {
+            "en": "Multi-Level Flexible Halls",
+            "ar": "صالات مرنة متعددة المستويات"
+        }
+        ,
+
 
         // Brand
         "brand": { en: "Arch.Aya Alsaadi", ar: "م.آية السعدي" },
@@ -200,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "homeNav4": { en: "Home", ar: "الرئيسية" },
         "homeNav5": { en: "Home", ar: "الرئيسية" },
         "aboutNav": { en: "About", ar: "من نحن" },
-        "aboutNav2": { en: "About", ar: "من نحن" },
+        "aboutNav2": { en: "About", ar: "من أنا" },
         "aboutNav3": { en: "About", ar: "من نحن" },
         "aboutNav4": { en: "About us", ar: "من نحن" },
         "aboutNav5": { en: "About", ar: "من نحن" },
@@ -208,15 +295,18 @@ document.addEventListener("DOMContentLoaded", function () {
         "projects2": { en: "Projects", ar: "المشاريع" },
         "projects3": { en: "Projects", ar: "المشاريع" },
         "projects4": { en: "Projects", ar: "المشاريع" },
-        "servicesNav": { en: "Our business", ar: "أعمالنا" },
-        "servicesNav2": { en: "Our business", ar: "أعمالنا" },
-        "servicesNav3": { en: "Our business", ar: "أعمالنا" },
-        "servicesNav4": { en: "Our business", ar: "أعمالنا" },
+        "servicesNav": { en: "We offer", ar: "نقدم" },
+        "servicesNav2": { en: "We offer", ar: "نقدم" },
+        "servicesNav3": { en: "We offer", ar: "نقدم" },
+        "servicesNav4": { en: "We offer", ar: "نقدم" },
         "contactNav": { en: "Contact", ar: "اتصل بنا" },
         "contactNav2": { en: "Contact", ar: "اتصل بنا" },
         "contactNav3": { en: "Contact", ar: "اتصل بنا" },
         "contactNav4": { en: "Contact", ar: "اتصل بنا" },
         "contactNav5": { en: "Contact", ar: "اتصل بنا" },
+        "contactNav6": { en: "Contact", ar: "اتصل بنا" },
+        "contactNav7": { en: "Contact", ar: "اتصل بنا" },
+        "contactNav8": { en: "Contact", ar: "اتصل بنا" },
         "languageButton": { en: "عربي", ar: "English" },
 
         // Carousel
@@ -289,39 +379,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // About
         "aboutTitle": { en: "About Us", ar: "من نحن" },
-        "aboutTitle2": { en: "About Us", ar: "من نحن" },
+        "aboutTitle2": { en: "About", ar: "من أنا" },
         "aboutHeading": {
-            en: "Experienced Civil Engineer Specialized in Structural & Infrastructure Projects",
-            ar: "مهندس مدني ذو خبرة متخصص في المشاريع الهيكلية والبنية التحتية"
+            "en": "Passionate Civil Engineer & Interior Design Specialist",
+            "ar": "مهندسة مدنية ومتخصصة في التصميم الداخلي والهندسة المعمارية"
         },
         "aboutHeading2": {
-            en: "Experienced Civil Engineer Specialized in Structural & Infrastructure Projects",
-            ar: "مهندس مدني ذو خبرة متخصص في المشاريع الهيكلية والبنية التحتية"
+            "en": "Passionate Civil Engineer & Interior Design Specialist",
+            "ar": "مهندسة مدنية ومتخصصة في التصميم الداخلي والهندسة المعمارية"
         },
         "aboutText1": {
-            en: "With over a decade of hands-on experience in civil engineering, I’ve led the design and execution of a wide range of projects—from residential foundations to large-scale road networks. My work is driven by technical precision, safety compliance, and sustainable practices.",
-            ar: "مع أكثر من عقد من الخبرة العملية في الهندسة المدنية، قمت بقيادة تصميم وتنفيذ مجموعة واسعة من المشاريع — من الأساسات السكنية إلى شبكات الطرق واسعة النطاق. عملي مدفوع بالدقة الفنية والامتثال للسلامة والممارسات المستدامة."
+            "en": "I am a dedicated civil engineer and interior design professional specializing in structural, infrastructure, and architectural interior projects. From residential foundations to bespoke interior spaces, I deliver innovative, safe, and aesthetically pleasing solutions that stand the test of time.",
+            "ar": "أنا مهندسة مدنية ومصممة داخلية متمكنة في المشاريع الهيكلية والبنية التحتية والمساحات الداخلية المعمارية. من أساسات المباني السكنية إلى التصميم الداخلي المُفصّل، أقدّم حلولًا مبتكرة وآمنة وجمالية تصمد أمام تحديات الزمن."
         },
         "aboutText1-2": {
-            en: "With over a decade of hands-on experience in civil engineering, I’ve led the design and execution of a wide range of projects—from residential foundations to large-scale road networks. My work is driven by technical precision, safety compliance, and sustainable practices.",
-            ar: "مع أكثر من عقد من الخبرة العملية في الهندسة المدنية، قمت بقيادة تصميم وتنفيذ مجموعة واسعة من المشاريع — من الأساسات السكنية إلى شبكات الطرق واسعة النطاق. عملي مدفوع بالدقة الفنية والامتثال للسلامة والممارسات المستدامة."
+            "en": "I am a dedicated civil engineer and interior design professional specializing in structural, infrastructure, and architectural interior projects. From residential foundations to bespoke interior spaces, I deliver innovative, safe, and aesthetically pleasing solutions that stand the test of time.",
+            "ar": "أنا مهندسة مدنية ومصممة داخلية متمكنة في المشاريع الهيكلية والبنية التحتية والمساحات الداخلية المعمارية. من أساسات المباني السكنية إلى التصميم الداخلي المُفصّل، أقدّم حلولًا مبتكرة وآمنة وجمالية تصمد أمام تحديات الزمن."
         },
         "aboutText2": {
-            en: "I collaborate closely with architects, contractors, and stakeholders to deliver practical, cost-effective solutions that stand the test of time. Whether it’s site supervision, quantity surveying, or full project lifecycle management—I bring clarity and excellence to every step.",
-            ar: "أتعاون بشكل وثيق مع المهندسين المعماريين والمقاولين وأصحاب المصلحة لتقديم حلول عملية وفعالة من حيث التكلفة تصمد أمام اختبار الزمن. سواء كانت إشرافًا على الموقع أو حصرًا للكميات أو إدارة دورة حياة المشروع بالكامل — أضفي الوضوح والتميز على كل خطوة."
+            "en": "I collaborate closely with architects, contractors, interior designers, and stakeholders to ensure every project runs smoothly, on time, and within budget. My expertise spans site supervision, interior space planning, quantity surveying, and full project lifecycle management—bringing clarity and excellence to every phase.",
+            "ar": "أتعاون بشكل وثيق مع المهندسين المعماريين والمصممين الداخليين والمقاولين وأصحاب المصلحة لضمان سير المشاريع بسلاسة وفي الموعد وضمن الميزانية. تشمل خبرتي الإشراف الموقعي وتخطيط المساحات الداخلية وحصر الكميات وإدارة دورة حياة المشروع كاملة، مما يضفي وضوحًا وتميّزًا في كل مرحلة."
         },
         "aboutText2-2": {
-            en: "I collaborate closely with architects, contractors, and stakeholders to deliver practical, cost-effective solutions that stand the test of time. Whether it’s site supervision, quantity surveying, or full project lifecycle management—I bring clarity and excellence to every step.",
-            ar: "أتعاون بشكل وثيق مع المهندسين المعماريين والمقاولين وأصحاب المصلحة لتقديم حلول عملية وفعالة من حيث التكلفة تصمد أمام اختبار الزمن. سواء كانت إشرافًا على الموقع أو حصرًا للكميات أو إدارة دورة حياة المشروع بالكامل — أضفي الوضوح والتميز على كل خطوة."
-        },
-        "experienceYears": { en: "Years", ar: "سنوات" },
-        "experienceYears2": { en: "Years", ar: "سنوات" },
-        "experienceField": { en: "of Field", ar: "من الخبرة" },
-        "experienceField2": { en: "of Field", ar: "من الخبرة" },
-        "experienceText": { en: "Experience", ar: "العملية" },
-        "experienceText2": { en: "Experience", ar: "العملية" },
+            "en": "I collaborate closely with architects, contractors, interior designers, and stakeholders to ensure every project runs smoothly, on time, and within budget. My expertise spans site supervision, interior space planning, quantity surveying, and full project lifecycle management—bringing clarity and excellence to every phase.",
+            "ar": "أتعاون بشكل وثيق مع المهندسين المعماريين والمصممين الداخليين والمقاولين وأصحاب المصلحة لضمان سير المشاريع بسلاسة وفي الموعد وضمن الميزانية. تشمل خبرتي الإشراف الموقعي وتخطيط المساحات الداخلية وحصر الكميات وإدارة دورة حياة المشروع كاملة، مما يضفي وضوحًا وتميّزًا في كل مرحلة."
+        }
+        ,
         "aboutButton": { en: "Contact Me", ar: "اتصل بي" },
         "aboutButton2": { en: "Contact Me", ar: "اتصل بي" },
+        // "experienceYears": { en: "Years", ar: "سنوات" },
+        // "experienceYears2": { en: "Years", ar: "سنوات" },
+        // "experienceField": { en: "of Field", ar: "من الخبرة" },
+        // "experienceField2": { en: "of Field", ar: "من الخبرة" },
+        // "experienceText": { en: "Experience", ar: "العملية" },
+        // "experienceText2": { en: "Experience", ar: "العملية" },
 
         // Services
         "expertiseTitle": { en: "My Expertise", ar: "خبرتي" },
@@ -358,98 +449,129 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         // ─── Services ─────────────────────────────────────────────
         "serviceTitle7": { en: "Architectural Design", ar: "التصميم المعماري" },
+        "serviceTitle7-1": { en: "Architectural Design", ar: "التصميم المعماري" },
         "serviceText7": {
             en: "Comprehensive & advanced architectural designs for residential, administrative and commercial buildings, including structural, electrical‑plumbing planning, façade and fencing design.",
             ar: "تصميمات معمارية متكاملة ومتطورة للمباني السكنية والإدارية والتجارية، تشمل المخططات الإنشائية والكهربائية والصحية، إلى جانب تصميم الواجهات والأسوار."
         },
 
         "serviceTitle8": { en: "Interior Design", ar: "التصميم الداخلي" },
+        "serviceTitle8-1": { en: "Interior Design", ar: "التصميم الداخلي" },
         "serviceText8": {
             en: "Innovative interior design solutions for residential, commercial and hospitality spaces: layout, furniture, lighting, colour schemes and décor.",
             ar: "حلول تصميم داخلي مبتكرة للمساحات السكنية والتجارية والفندقية تشمل تنسيق الفراغات، اختيار الأثاث، تصميم الإضاءة، الألوان والعناصر الزخرفية."
         },
 
         "serviceTitle9": { en: "Engineering Supervision", ar: "الإشراف الهندسي" },
+        "serviceTitle9-1": { en: "Engineering Supervision", ar: "الإشراف الهندسي" },
         "serviceText9": {
             en: "Execution supervision, quality management, performance evaluation, reporting, problem‑resolution, communication and coordination among stakeholders.",
             ar: "إشراف على التنفيذ، إدارة الجودة، تقييم الأداء، إعداد التقارير، حل المشكلات، والتواصل والتنسيق بين جميع الأطراف المعنية."
         },
 
-        "serviceTitle10": { en: "Subdivision", ar: "الفرز" },
-        "serviceText10": {
-            en: "Dividing residential land into parcels under an approved engineering plan to ensure compliance and efficient land‑use.",
-            ar: "تقسيم الأراضي السكنية إلى قطع وفق مخطط هندسي معتمد، لضمان الامتثال وتسهيل التخطيط الفعّال لاستخدام الأرض."
+        "serviceTitle10": {
+            "en": "Report Preparation & Editing",
+            "ar": "إعداد وتحرير التقارير"
         },
+        "serviceTitle10-1": {
+            "en": "Report Preparation & Editing",
+            "ar": "إعداد وتحرير التقارير"
+        },
+        "serviceText10": {
+            "en": "Preparing comprehensive engineering reports, including data analysis, design documentation, and editorial review to ensure accuracy, clarity, and compliance.",
+            "ar": "إعداد تقارير هندسية شاملة تتضمن تحليل البيانات، توثيق التصميم، ومراجعة تحريرية لضمان الدقة والوضوح والامتثال."
+        }
+        ,
 
 
         // Feature
         "whyChooseTitle": { en: "Why Choose Me!", ar: "لماذا تختارني!" },
         "whyChooseTitle2": { en: "Why Choose Me!", ar: "لماذا تختارني!" },
         "whyChooseHeading": {
-            en: "Committed to Precision, Practicality, and Performance",
-            ar: "ملتزم بالدقة والعملية والأداء"
+            "en": "Committed to Precision, Practicality, and Performance",
+            "ar": "ملتزمة بالدقة والعملية والأداء"
         },
         "whyChooseHeading2": {
-            en: "Committed to Precision, Practicality, and Performance",
-            ar: "ملتزم بالدقة والعملية والأداء"
+            "en": "Committed to Precision, Practicality, and Performance",
+            "ar": "ملتزمة بالدقة والعملية والأداء"
         },
         "whyChooseText": {
-            en: "As a civil engineer, I combine technical expertise with a hands-on approach to deliver solutions that are both innovative and grounded in real-world experience. I bring value to every project by balancing efficiency, safety, and durability.",
-            ar: "بصفتي مهندسًا مدنيًا، أجمع بين الخبرة الفنية والنهج العملي لتقديم حلول مبتكرة وقائمة على الخبرة الواقعية. أضيف قيمة إلى كل مشروع من خلال تحقيق التوازن بين الكفاءة والسلامة والمتانة."
+            "en": "As a civil engineer, I combine technical expertise with a hands-on approach to deliver solutions that are both innovative and grounded in real-world experience. I bring value to every project by balancing efficiency, safety, and durability.",
+            "ar": "بصفتي مهندسة مدنية، أجمع بين الخبرة الفنية والنهج العملي لتقديم حلول مبتكرة ومستندة إلى الخبرة الواقعية. أضيف قيمة لكل مشروع من خلال تحقيق التوازن بين الكفاءة والسلامة والمتانة."
         },
         "whyChooseText2": {
-            en: "As a civil engineer, I combine technical expertise with a hands-on approach to deliver solutions that are both innovative and grounded in real-world experience. I bring value to every project by balancing efficiency, safety, and durability.",
-            ar: "بصفتي مهندسًا مدنيًا، أجمع بين الخبرة الفنية والنهج العملي لتقديم حلول مبتكرة وقائمة على الخبرة الواقعية. أضيف قيمة إلى كل مشروع من خلال تحقيق التوازن بين الكفاءة والسلامة والمتانة."
+            "en": "As a civil engineer, I combine technical expertise with a hands-on approach to deliver solutions that are both innovative and grounded in real-world experience. I bring value to every project by balancing efficiency, safety, and durability.",
+            "ar": "بصفتي مهندسة مدنية، أجمع بين الخبرة الفنية والنهج العملي لتقديم حلول مبتكرة ومستندة إلى الخبرة الواقعية. أضيف قيمة لكل مشروع من خلال تحقيق التوازن بين الكفاءة والسلامة والمتانة."
         },
-        "featureTitle1": { en: "Engineered Accuracy", ar: "دقة هندسية" },
-        "featureTitle1-1": { en: "Engineered Accuracy", ar: "دقة هندسية" },
+        "featureTitle1": {
+            "en": "Engineered Accuracy",
+            "ar": "دقة هندسية"
+        },
+        "featureTitle1-1": {
+            "en": "Engineered Accuracy",
+            "ar": "دقة هندسية"
+        },
         "featureText1": {
-            en: "Every drawing, calculation, and inspection is executed with a commitment to structural integrity and regulatory compliance.",
-            ar: "يتم تنفيذ كل رسم وحساب وفحص مع الالتزام بالسلامة الهيكلية والامتثال التنظيمي."
+            "en": "Every drawing, calculation, and inspection is executed with a commitment to structural integrity and regulatory compliance.",
+            "ar": "يتم تنفيذ كل رسم وحساب وفحص بالتزامٍ تام بالسلامة الهيكلية والامتثال للمعايير التنظيمية."
         },
         "featureText1-2": {
-            en: "Every drawing, calculation, and inspection is executed with a commitment to structural integrity and regulatory compliance.",
-            ar: "يتم تنفيذ كل رسم وحساب وفحص مع الالتزام بالسلامة الهيكلية والامتثال التنظيمي."
+            "en": "Every drawing, calculation, and inspection is executed with a commitment to structural integrity and regulatory compliance.",
+            "ar": "يتم تنفيذ كل رسم وحساب وفحص بالتزامٍ تام بالسلامة الهيكلية والامتثال للمعايير التنظيمية."
         },
-        "featureTitle2": { en: "Smart & Sustainable Solutions", ar: "حلول ذكية ومستدامة" },
-        "featureTitle2-2": { en: "Smart & Sustainable Solutions", ar: "حلول ذكية ومستدامة" },
+        "featureTitle2": {
+            "en": "Smart & Sustainable Solutions",
+            "ar": "حلول ذكية ومستدامة"
+        },
+        "featureTitle2-2": {
+            "en": "Smart & Sustainable Solutions",
+            "ar": "حلول ذكية ومستدامة"
+        },
         "featureText2": {
-            en: "Whether it’s infrastructure or buildings, I incorporate modern methods and eco-conscious strategies in every stage of the project.",
-            ar: "سواء كانت بنية تحتية أو مباني، أقوم بدمج الأساليب الحديثة والاستراتيجيات الصديقة للبيئة في كل مرحلة من مراحل المشروع."
+            "en": "Whether it’s infrastructure or buildings, I incorporate modern methods and eco-conscious strategies in every stage of the project.",
+            "ar": "سواء كانت بنية تحتية أو مبانٍ، أدمج الأساليب الحديثة والاستراتيجيات الصديقة للبيئة في كل مرحلة من مراحل المشروع."
         },
         "featureText2-2": {
-            en: "Whether it’s infrastructure or buildings, I incorporate modern methods and eco-conscious strategies in every stage of the project.",
-            ar: "سواء كانت بنية تحتية أو مباني، أقوم بدمج الأساليب الحديثة والاستراتيجيات الصديقة للبيئة في كل مرحلة من مراحل المشروع."
+            "en": "Whether it’s infrastructure or buildings, I incorporate modern methods and eco-conscious strategies in every stage of the project.",
+            "ar": "سواء كانت بنية تحتية أو مبانٍ، أدمج الأساليب الحديثة والاستراتيجيات الصديقة للبيئة في كل مرحلة من مراحل المشروع."
         },
-        "featureTitle3": { en: "Professional Project Oversight", ar: "إشراف احترافي على المشروع" },
-        "featureTitle3-2": { en: "Professional Project Oversight", ar: "إشراف احترافي على المشروع" },
+        "featureTitle3": {
+            "en": "Professional Project Oversight",
+            "ar": "إشراف احترافي على المشروع"
+        },
+        "featureTitle3-2": {
+            "en": "Professional Project Oversight",
+            "ar": "إشراف احترافي على المشروع"
+        },
         "featureText3": {
-            en: "I manage timelines, quality, and communication across teams to ensure your project is delivered successfully from start to finish.",
-            ar: "أقوم بإدارة الجداول الزمنية والجودة والتواصل بين الفرق لضمان تسليم مشروعك بنجاح من البداية إلى النهاية."
+            "en": "I manage timelines, quality, and communication across teams to ensure your project is delivered successfully from start to finish.",
+            "ar": "أدير الجداول الزمنية والجودة والتواصل بين الفرق لضمان تسليم مشروعك بنجاح من البداية إلى النهاية."
         },
         "featureText3-2": {
-            en: "I manage timelines, quality, and communication across teams to ensure your project is delivered successfully from start to finish.",
-            ar: "أقوم بإدارة الجداول الزمنية والجودة والتواصل بين الفرق لضمان تسليم مشروعك بنجاح من البداية إلى النهاية."
-        },
+            "en": "I manage timelines, quality, and communication across teams to ensure your project is delivered successfully from start to finish.",
+            "ar": "أدير الجداول الزمنية والجودة والتواصل بين الفرق لضمان تسليم مشروعك بنجاح من البداية إلى النهاية."
+        }
+        ,
 
         // Appointment/Contact
         "getInTouchTitle": { en: "Get In Touch", ar: "تواصل معي" },
         "getInTouchTitle2": { en: "Get In Touch", ar: "تواصل معي" },
         "getInTouchHeading": {
-            en: "Let’s Discuss Your Project or Engineering Needs",
-            ar: "دعنا نناقش مشروعك أو احتياجاتك الهندسية"
+            "en": "Let’s Discuss Your Project & Design Needs",
+            "ar": "دعينا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
         },
         "getInTouchHeading2": {
-            en: "Let’s Discuss Your Project or Engineering Needs",
-            ar: "دعنا نناقش مشروعك أو احتياجاتك الهندسية"
-        },
+            "en": "Let’s Discuss Your Project & Design Needs",
+            "ar": "دعينا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
+        }
+        ,
         "getInTouchText": {
-            en: "Whether you're planning a structural development, infrastructure project, or need consultation, I’m available to assist with expert insight and practical solutions.",
-            ar: "سواء كنت تخطط لتطوير هيكلي أو مشروع بنية تحتية أو تحتاج إلى استشارة، فأنا متاح للمساعدة برؤى الخبراء وحلول عملية."
+            en: "Whether you're planning a structural development, infrastructure project, or seeking to transform your interior space, I'm available to assist with expert insight and practical solutions tailored to your needs.",
+            ar: "سواء كنت تخطط لتطوير هيكلي، مشروع بنية تحتية، أو ترغب في تحويل مساحتك الداخلية، فأنا متاح للمساعدة بخبرة متخصصة وحلول عملية مصممة خصيصًا لتلبية احتياجاتك."
         },
         "getInTouchText2": {
-            en: "Whether you're planning a structural development, infrastructure project, or need consultation, I’m available to assist with expert insight and practical solutions.",
-            ar: "سواء كنت تخطط لتطوير هيكلي أو مشروع بنية تحتية أو تحتاج إلى استشارة، فأنا متاح للمساعدة برؤى الخبراء وحلول عملية."
+            en: "From structural engineering challenges to creating aesthetically pleasing and functional interior environments, my combined expertise in civil engineering and interior design offers a unique perspective for your project's success.",
+            ar: "من تحديات الهندسة الإنشائية إلى إنشاء بيئات داخلية جمالية وعملية، توفر خبرتي المشتركة في الهندسة المدنية والتصميم الداخلي منظورًا فريدًا لنجاح مشروعك."
         },
         "callMe": { en: "Call Me", ar: "اتصل بي" },
         "callMe2": { en: "Call Me", ar: "اتصل بي" },
@@ -478,8 +600,8 @@ document.addEventListener("DOMContentLoaded", function () {
         "aboutMeLink2": { en: "About Me", ar: "عني" },
         "contactLink": { en: "Contact", ar: "اتصل" },
         "contactLink2": { en: "Contact", ar: "اتصل" },
-        "servicesLink": { en: "Our business", ar: "أعمالنا" },
-        "servicesLink2": { en: "Our business", ar: "أعمالنا" },
+        "servicesLink": { en: "We offer", ar: "نقدم" },
+        "servicesLink2": { en: "We offer", ar: "نقدم" },
         "structuralLink": { en: "Structural Design", ar: "التصميم الإنشائي" },
         "structuralLink2": { en: "Structural Design", ar: "التصميم الإنشائي" },
         "supervisionLink": { en: "Project Supervision", ar: "الإشراف على المشروع" },
@@ -526,3 +648,26 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Reset all carousels when switching tabs
+    let tabEls = document.querySelectorAll('button[data-bs-toggle="pill"]');
+
+    tabEls.forEach(function (tabEl) {
+        tabEl.addEventListener('shown.bs.tab', function (event) {
+            // Get the target tab pane ID
+            const targetId = event.target.getAttribute('data-bs-target');
+
+            // Find the carousel in the target tab pane
+            const targetCarousel = document.querySelector(targetId + ' .carousel');
+
+            // If carousel exists, reset it to first slide
+            if (targetCarousel) {
+                const carousel = bootstrap.Carousel.getInstance(targetCarousel);
+                if (carousel) {
+                    carousel.to(0);
+                }
+            }
+        });
+    });
+});
