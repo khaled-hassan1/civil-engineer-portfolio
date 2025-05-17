@@ -101,39 +101,50 @@ document.addEventListener("DOMContentLoaded", function () {
             en: "Our Projects",
             ar: "مشاريعنا"
         },
+        "projectsTitle2": {
+            "en": "Supervisory and Execution Drawings",
+            "ar": "الرسومات الإشرافية والتنفيذية"
+        },
+        "projectsSubTitle": {
+            en: "Supervision and implementation",
+            ar: "الإشراف والتنفيذ"
+        },
         "projectsHeading": {
             en: "Visit Our Latest Projects And Our Innovative Works",
             ar: "تصفَّح أحدث مشاريعنا وأعمالنا الابتكارية"
         },
-        "project3": {
-            en: "03. Boutique Hotel",
-            ar: "03. فندق بوتيك"
+        "projectsHeading2": {
+            en: "Explore Our Detailed Shop Drawings And Technical Submittals",
+            ar: "تصفح رسوماتنا التنفيذية التفصيلية والتقديمات الفنية"
         },
         "project1": {
             "en": "01. French Restaurant",
             "ar": "01. المطعم الفرنسي"
         },
-
         "project2": {
             "en": "02. AL-Waha Boulevard",
             "ar": "02. الواحة بوليڤارد"
         },
+        "project3": {
+            en: "01. Boutique Hotel",
+            ar: "01. فندق بوتيك"
+        },
 
         "project4": {
-            en: "04. Mixed‑Use High‑Rise Building",
-            ar: "04. برج متعدد الاستخدامات"
+            en: "02. Mixed‑Use High‑Rise Building",
+            ar: "02. برج متعدد الاستخدامات"
         },
         "project5": {
-            en: "05. Villa Complex",
-            ar: "05. مجمع الفلل"
+            en: "03. Villa Complex",
+            ar: "03. مجمع الفلل"
         },
         "project6": {
-            en: "06. Car Museum",
-            ar: "06. متحف السيارات"
+            en: "04. Car Museum",
+            ar: "04. متحف السيارات"
         },
         "project7": {
-            en: "07. Convention Center",
-            ar: "07. مركز المؤتمرات"
+            en: "05. Convention Center",
+            ar: "05. مركز المؤتمرات"
         },
 
         // ===== French Restaurant =====
@@ -277,7 +288,22 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         ,
 
-
+        // Shop Drawings
+        "shopDrawing": {
+            en: "Supervision and implementation",
+            ar: "الإشراف والتنفيذ"
+        }
+        ,
+        "shopDrawing1-2": {
+            en: "Supervision and implementation",
+            ar: "الإشراف والتنفيذ"
+        }
+        ,
+        "shopDrawing2": {
+            "en": "Supervisory and Execution Drawings",
+            "ar": "الرسومات الإشرافية والتنفيذية"
+        }
+        ,
         // Brand
         "brand": { en: "Arch.Aya Alsaadi", ar: "م.آية السعدي" },
         // Navigation
@@ -482,7 +508,14 @@ document.addEventListener("DOMContentLoaded", function () {
             "ar": "إعداد تقارير هندسية شاملة تتضمن تحليل البيانات، توثيق التصميم، ومراجعة تحريرية لضمان الدقة والوضوح والامتثال."
         }
         ,
-
+        "project03": {
+            "en": "03. Report Preparation",
+            "ar": "03. تحضير التقارير"
+        },
+        "project04": {
+            "en": "04. Different Shop Drawings",
+            "ar": "04. مخططات ورشة عمل متنوعة"
+        },
 
         // Feature
         "whyChooseTitle": { en: "Why Choose Me!", ar: "لماذا تختارني!" },
