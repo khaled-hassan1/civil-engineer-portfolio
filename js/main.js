@@ -312,8 +312,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // Carousel
         "carouselTitle1": { en: "Building Tomorrow’s Infrastructure", ar: "بناء البنية التحتية للمستقبل" },
         "carouselText1": {
-            en: "From bridges and highways to residential foundations, I deliver reliable and durable civil engineering solutions across all project scales.",
-            ar: "من الجسور والطرق السريعة إلى الأساسات السكنية، أقدم حلول هندسية مدنية موثوقة ومتينة لجميع أحجام المشاريع."
+            en: "From innovative building designs to sustainable urban planning, I deliver creative and functional architectural engineering solutions across various project types.",
+            ar: "من تصاميم المباني المبتكرة إلى التخطيط الحضري المستدام، أقدم حلول هندسية معمارية إبداعية وعملية لمختلف أنواع المشاريع."
         },
         "carouselButton1": { en: "My Services", ar: "خدماتي" },
         "carouselButton2": { en: "My Services", ar: "خدماتي" },
@@ -381,20 +381,20 @@ document.addEventListener("DOMContentLoaded", function () {
         "aboutTitle": { en: "About Us", ar: "من نحن" },
         "aboutTitle2": { en: "About", ar: "من أنا" },
         "aboutHeading": {
-            "en": "Passionate Civil Engineer & Interior Design Specialist",
-            "ar": "مهندسة مدنية ومتخصصة في التصميم الداخلي والهندسة المعمارية"
+            "en": "Passionate Architectural Engineer & Interior Design Specialist",
+            "ar": "مهندسة معمارية ومتخصصة في التصميم الداخلي"
         },
         "aboutHeading2": {
-            "en": "Passionate Civil Engineer & Interior Design Specialist",
-            "ar": "مهندسة مدنية ومتخصصة في التصميم الداخلي والهندسة المعمارية"
+            "en": "Passionate Architectural Engineer & Interior Design Specialist",
+            "ar": "مهندسة معمارية ومتخصصة في التصميم الداخلي"
         },
         "aboutText1": {
-            "en": "I am a dedicated civil engineer and interior design professional specializing in structural, infrastructure, and architectural interior projects. From residential foundations to bespoke interior spaces, I deliver innovative, safe, and aesthetically pleasing solutions that stand the test of time.",
-            "ar": "أنا مهندسة مدنية ومصممة داخلية متمكنة في المشاريع الهيكلية والبنية التحتية والمساحات الداخلية المعمارية. من أساسات المباني السكنية إلى التصميم الداخلي المُفصّل، أقدّم حلولًا مبتكرة وآمنة وجمالية تصمد أمام تحديات الزمن."
+            "en": "I am a dedicated architectural engineer and interior design professional specializing in architectural design, structural considerations, and interior projects. From initial concepts to detailed interior spaces, I deliver innovative, functional, and aesthetically pleasing designs that meet client needs and stand the test of time.",
+            "ar": "أنا مهندسة معمارية ومصممة داخلية متمكنة في التصميم المعماري والجوانب الإنشائية والمشاريع الداخلية. بدءًا من المفاهيم الأولية وصولًا إلى المساحات الداخلية المفصلة، أقدم تصاميم مبتكرة وعملية وجمالية تلبي احتياجات العملاء وتصمد بمرور الوقت."
         },
         "aboutText1-2": {
-            "en": "I am a dedicated civil engineer and interior design professional specializing in structural, infrastructure, and architectural interior projects. From residential foundations to bespoke interior spaces, I deliver innovative, safe, and aesthetically pleasing solutions that stand the test of time.",
-            "ar": "أنا مهندسة مدنية ومصممة داخلية متمكنة في المشاريع الهيكلية والبنية التحتية والمساحات الداخلية المعمارية. من أساسات المباني السكنية إلى التصميم الداخلي المُفصّل، أقدّم حلولًا مبتكرة وآمنة وجمالية تصمد أمام تحديات الزمن."
+            "en": "I am a dedicated architectural engineer and interior design professional specializing in architectural design, structural considerations, and interior projects. From initial concepts to detailed interior spaces, I deliver innovative, functional, and aesthetically pleasing designs that meet client needs and stand the test of time.",
+            "ar": "أنا مهندسة معمارية ومصممة داخلية متمكنة في التصميم المعماري والجوانب الإنشائية والمشاريع الداخلية. بدءًا من المفاهيم الأولية وصولًا إلى المساحات الداخلية المفصلة، أقدم تصاميم مبتكرة وعملية وجمالية تلبي احتياجات العملاء وتصمد بمرور الوقت."
         },
         "aboutText2": {
             "en": "I collaborate closely with architects, contractors, interior designers, and stakeholders to ensure every project runs smoothly, on time, and within budget. My expertise spans site supervision, interior space planning, quantity surveying, and full project lifecycle management—bringing clarity and excellence to every phase.",
@@ -416,7 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Services
         "expertiseTitle": { en: "My Expertise", ar: "خبرتي" },
-        "expertiseHeading": { en: "Comprehensive Civil Engineering Services", ar: "خدمات هندسية مدنية شاملة" },
+        "expertiseHeading": { en: "Comprehensive Architectural Engineering Services", ar: "خدمات هندسية معمارية شاملة" },
         "serviceTitle1": { en: "Structural Design", ar: "التصميم الهيكلي" },
         "serviceText1": {
             en: "Design and analysis of buildings and structures to ensure safety, durability, and code compliance.",
@@ -496,12 +496,12 @@ document.addEventListener("DOMContentLoaded", function () {
             "ar": "ملتزمة بالدقة والعملية والأداء"
         },
         "whyChooseText": {
-            "en": "As a civil engineer, I combine technical expertise with a hands-on approach to deliver solutions that are both innovative and grounded in real-world experience. I bring value to every project by balancing efficiency, safety, and durability.",
-            "ar": "بصفتي مهندسة مدنية، أجمع بين الخبرة الفنية والنهج العملي لتقديم حلول مبتكرة ومستندة إلى الخبرة الواقعية. أضيف قيمة لكل مشروع من خلال تحقيق التوازن بين الكفاءة والسلامة والمتانة."
+            "en": "As an architectural engineer, I combine technical expertise with a creative and practical approach to design innovative and functional spaces. I bring value to every project by harmonizing aesthetics, efficiency, and structural integrity.",
+            "ar": "بصفتي مهندسة معمارية، أجمع بين الخبرة الفنية والنهج الإبداعي والعملي لتصميم مساحات مبتكرة وعملية. أضيف قيمة لكل مشروع من خلال تحقيق الانسجام بين الجماليات والكفاءة والسلامة الإنشائية."
         },
         "whyChooseText2": {
-            "en": "As a civil engineer, I combine technical expertise with a hands-on approach to deliver solutions that are both innovative and grounded in real-world experience. I bring value to every project by balancing efficiency, safety, and durability.",
-            "ar": "بصفتي مهندسة مدنية، أجمع بين الخبرة الفنية والنهج العملي لتقديم حلول مبتكرة ومستندة إلى الخبرة الواقعية. أضيف قيمة لكل مشروع من خلال تحقيق التوازن بين الكفاءة والسلامة والمتانة."
+            "en": "As an architectural engineer, I combine technical expertise with a creative and practical approach to design innovative and functional spaces. I bring value to every project by harmonizing aesthetics, efficiency, and structural integrity.",
+            "ar": "بصفتي مهندسة معمارية، أجمع بين الخبرة الفنية والنهج الإبداعي والعملي لتصميم مساحات مبتكرة وعملية. أضيف قيمة لكل مشروع من خلال تحقيق الانسجام بين الجماليات والكفاءة والسلامة الإنشائية."
         },
         "featureTitle1": {
             "en": "Engineered Accuracy",
