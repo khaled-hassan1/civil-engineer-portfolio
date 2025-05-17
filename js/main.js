@@ -558,11 +558,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "getInTouchTitle2": { en: "Get In Touch", ar: "تواصل معي" },
         "getInTouchHeading": {
             "en": "Let’s Discuss Your Project & Design Needs",
-            "ar": "دعينا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
+            "ar": "دعنا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
         },
         "getInTouchHeading2": {
             "en": "Let’s Discuss Your Project & Design Needs",
-            "ar": "دعينا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
+            "ar": "دعنا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
         }
         ,
         "getInTouchText": {
