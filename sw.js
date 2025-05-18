@@ -2,14 +2,14 @@
 const CACHE_NAME = 'my-pwa-v1';
 const ASSETS = [
   '/',
-  '/index.html',
-  '/project.html',
-  '/manifest.json',
-  '/img/icons/icon-192x192.png',
-  '/img/icons/icon-512x512.png',
+  'index.html',
+  'project.html',
+  'manifest.json',
+  'img/icons/icon-192x192.png',
+  'img/icons/icon-512x512.png',
   // add any CSS/JS you need offline:
-  '/css/style.css',
-  '/js/main.js'
+  'css/style.css',
+  'js/main.js'
 ];
 
 // INSTALL: cache app shell
