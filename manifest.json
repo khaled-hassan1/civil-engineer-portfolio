@@ -9,12 +9,16 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "img/icons/icon-192x192.png",
-            "sizes": "192x192",
+            "src": "img/icons/180x180.png",
+            "sizes": "180x180",
             "type": "image/png",
             "purpose": "maskable"
+        },
+        {
+            "src": "img/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
-
     ],
     "screenshots": [
         {
@@ -48,7 +52,7 @@
         {
             "name": "Home",
             "short_name": "Home",
-            "url": "/index.html",
+            "url": "index.html",
             "icons": [
                 {
                     "src": "/img/icons/icon-1.png",
@@ -61,7 +65,7 @@
         {
             "name": "Projects",
             "short_name": "Projects",
-            "url": "/project.html",
+            "url": "project.html",
             "icons": [
                 {
                     "src": "/img/icons/icon-1.png",
@@ -74,7 +78,7 @@
         {
             "name": "Contact",
             "short_name": "Contact",
-            "url": "/contact.html",
+            "url": "contact.html",
             "icons": [
                 {
                     "src": "/img/icons/icon-1.png",
