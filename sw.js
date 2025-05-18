@@ -1,21 +1,35 @@
-const assets = [
-  "/",
-  "index.html",
- 
+// cache name & assets to pre-cache
+const CACHE_NAME = 'my-pwa-v1';
+const ASSETS = [
+  '/',
+  '/index.html',
+  '/project.html',
+  '/manifest.json',
+  '/img/icons/icon-192x192.png',
+  '/img/icons/icon-512x512.png',
+  // add any CSS/JS you need offline:
+  '/css/style.css',
+  '/js/main.js'
 ];
 
-self.addEventListener("install", function (installEvent) {
-  installEvent.waitUntil(
-    caches.open("my-pwa").then(function (cache) {
-      cache.addAll(assets)
-    })
-  )
-})
+// INSTALL: cache app shell
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(ASSETS))
+      .then(() => self.skipWaiting())
+  );
+});
 
-self.addEventListener('fetch', function (fetchEvent) {
-  fetchEvent.respondWith(
-    caches.match(fetchEvent.request).then(function (res) {
-      return res || fetch(fetchEvent.request)
-    })
-  )
-})
+// ACTIVATE: take control immediately
+self.addEventListener('activate', event => {
+  event.waitUntil(self.clients.claim());
+});
+
+// FETCH: cache-first strategy
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request)
+      .then(cached => cached || fetch(event.request))
+  );
+});

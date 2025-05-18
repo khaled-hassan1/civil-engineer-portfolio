@@ -4,7 +4,7 @@ A modern, fully responsive **HTML 5 + Bootstrap 5** template for Architectur
 Originally forked from the *Arkitektur* theme and refactored for structural design, construction management, and infrastructure services.
 Includes bilingual (English ↔ Arabic) support with automatic RTL handling, SEO‑ready markup, and no build tools required—just open the HTML files and deploy.
 
-![Template preview](./screenshots/preview.png)
+![LOGO](./img/icons/icon-512x512.png)
 
 ---
 
@@ -139,6 +139,6 @@ Attribution (footer link or a GitHub ⭐) is appreciated but **not required**.
 ## ✍️ Author / Maintainer
 
 **\[Your Name]** — Architectural Engineer, Structural Design & Construction Management
-[Portfolio](https://ayaalsaadi.com) | [LinkedIn](https://linkedin.com/) | [Twitter](https://twitter.com/)
+[Portfolio](https://khaled-hassan1.github.io/civil-engineer-portfolio) | [LinkedIn](https://linkedin.com/) | [Twitter](https://twitter.com/)
 
 Feel free to open issues or pull requests to improve the template!
