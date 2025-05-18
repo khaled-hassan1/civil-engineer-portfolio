@@ -1,7 +1,7 @@
 {
     "name": "Arch.Aya Alsaadi – Arch Engineer",
     "short_name": "Arch.Aya Alsaadi",
-    "start_url": "/?utm_source=homescreen",
+    "start_url":".",
     "scope": "/",
     "display": "standalone",
     "orientation": "portrait",
