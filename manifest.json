@@ -1,7 +1,7 @@
 {
     "name": "Arch.Aya Alsaadi – Arch Engineer",
     "short_name": "Arch.Aya Alsaadi",
-    "start_url":".",
+    "start_url": ".",
     "scope": "/",
     "display": "standalone",
     "orientation": "portrait",
@@ -22,14 +22,24 @@
     ],
     "screenshots": [
         {
-            "src": "img/project1-1.jpg",
-            "type": "image/jpg",
-            "sizes": "667x1000"
+            "src": "img/projects/villa-complex-1.png",
+            "type": "image/png",
+            "sizes": "630x590"
         },
         {
-            "src": "img/icons/icon-512x512.png",
-            "type": "image/jpg",
-            "sizes": "667x1000"
+            "src": "img/projects/villa-complex-2.png",
+            "type": "image/png",
+            "sizes": "632x576"
+        },
+        {
+            "src": "img/projects/villa-complex-3.png",
+            "type": "image/png",
+            "sizes": "624x652"
+        },
+        {
+            "src": "img/projects/villa-complex-4.png",
+            "type": "image/png",
+            "sizes": "624x890"
         }
     ],
     "shortcuts": [
@@ -37,12 +47,27 @@
             "name": "Projects",
             "short_name": "Projects",
             "description": "View Arch.Aya Alsaadi's projects",
-            "url": "/projects",
+            "url": "/project.html",
             "icons": [
                 {
-                    "src": "img/project1-1.jpg",
-                    "type": "image/jpg",
-                    "sizes": "669x1000"
+                    "src": "img/projects/villa-complex-1.png",
+                    "type": "image/png",
+                    "sizes": "630x590"
+                },
+                {
+                    "src": "img/projects/villa-complex-2.png",
+                    "type": "image/png",
+                    "sizes": "632x576"
+                },
+                {
+                    "src": "img/projects/villa-complex-3.png",
+                    "type": "image/png",
+                    "sizes": "624x652"
+                },
+                {
+                    "src": "img/projects/villa-complex-4.png",
+                    "type": "image/png",
+                    "sizes": "624x890"
                 }
             ]
         }

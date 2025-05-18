@@ -473,6 +473,15 @@ document.addEventListener("DOMContentLoaded", function () {
             en: "Development of Gantt charts, CPM schedules, and resource allocation plans for construction phases.",
             ar: "تطوير مخططات جانت وجداول CPM وخطط تخصيص الموارد لمراحل البناء."
         },
+        "serviceTitle-3d": {
+            en: "3D Modeling & Printing",
+            ar: "النمذجة والطباعة ثلاثية الأبعاد"
+        },
+        "serviceText-3d": {
+            en: "We create accurate 3D models and prototypes using advanced 3D printing technology.",
+            ar: "نقوم بإنشاء نماذج ثلاثية الأبعاد ونماذج أولية دقيقة باستخدام تقنية الطباعة ثلاثية الأبعاد المتقدمة."
+        },
+
         // ─── Services ─────────────────────────────────────────────
         "serviceTitle7": { en: "Architectural Design", ar: "التصميم المعماري" },
         "serviceTitle7-1": { en: "Architectural Design", ar: "التصميم المعماري" },
@@ -603,7 +612,7 @@ document.addEventListener("DOMContentLoaded", function () {
             ar: "سواء كنت تخطط لتطوير هيكلي، مشروع بنية تحتية، أو ترغب في تحويل مساحتك الداخلية، فأنا متاح للمساعدة بخبرة متخصصة وحلول عملية مصممة خصيصًا لتلبية احتياجاتك."
         },
         "getInTouchText2": {
-            en: "From structural engineering challenges to creating aesthetically pleasing and functional interior environments, my combined expertise in civil engineering and interior design offers a unique perspective for your project's success.",
+            en: "From structural engineering challenges to creating aesthetically pleasing and functional interior environments, my combined expertise in Architectural engineering and interior design offers a unique perspective for your project's success.",
             ar: "من تحديات الهندسة الإنشائية إلى إنشاء بيئات داخلية جمالية وعملية، توفر خبرتي المشتركة في الهندسة المدنية والتصميم الداخلي منظورًا فريدًا لنجاح مشروعك."
         },
         "callMe": { en: "Call Me", ar: "اتصل بي" },

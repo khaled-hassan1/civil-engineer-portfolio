@@ -1,6 +1,6 @@
-# Civil‑Engineer‑Portfolio
+# Architectural‑Engineer‑Portfolio
 
-A modern, fully responsive **HTML 5 + Bootstrap 5** template for civil‑engineering portfolios.
+A modern, fully responsive **HTML 5 + Bootstrap 5** template for Architectural‑engineering portfolios.
 Originally forked from the *Arkitektur* theme and refactored for structural design, construction management, and infrastructure services.
 Includes bilingual (English ↔ Arabic) support with automatic RTL handling, SEO‑ready markup, and no build tools required—just open the HTML files and deploy.
 
@@ -112,7 +112,7 @@ Add any new text node by giving it an **ID** and appending a key in the map—no
 | ✅                                                                 | Item |
 | ----------------------------------------------------------------- | ---- |
 | Descriptive `<title>` & `<meta name="description">` on every page |      |
-| Keyword `<meta>` for civil engineering niche                      |      |
+| Keyword `<meta>` for Architectural engineering niche                      |      |
 | Canonical URL tag                                                 |      |
 | Open Graph tags for social sharing                                |      |
 | JSON‑LD ProfessionalService schema                                |      |
@@ -138,7 +138,7 @@ Attribution (footer link or a GitHub ⭐) is appreciated but **not required**.
 
 ## ✍️ Author / Maintainer
 
-**\[Your Name]** — Civil Engineer, Structural Design & Construction Management
+**\[Your Name]** — Architectural Engineer, Structural Design & Construction Management
 [Portfolio](https://ayaalsaadi.com) | [LinkedIn](https://linkedin.com/) | [Twitter](https://twitter.com/)
 
 Feel free to open issues or pull requests to improve the template!
