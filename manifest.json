@@ -1,6 +1,6 @@
 {
-    "name": "Arch.Aya Alsaadi – Arch Engineer",
-    "short_name": "Arch.Aya Alsaadi",
+    "name": "Arch.Aya Alsaadi",
+    "short_name": "Arch.Aya",
     "start_url": ".",
     "scope": "/",
     "display": "standalone",
@@ -50,24 +50,9 @@
             "url": "/project.html",
             "icons": [
                 {
-                    "src": "img/projects/villa-complex-1.png",
+                    "src": "img/icons/icon-192x192.png",
                     "type": "image/png",
-                    "sizes": "630x590"
-                },
-                {
-                    "src": "img/projects/villa-complex-2.png",
-                    "type": "image/png",
-                    "sizes": "632x576"
-                },
-                {
-                    "src": "img/projects/villa-complex-3.png",
-                    "type": "image/png",
-                    "sizes": "624x652"
-                },
-                {
-                    "src": "img/projects/villa-complex-4.png",
-                    "type": "image/png",
-                    "sizes": "624x890"
+                    "sizes": "192x192"
                 }
             ]
         }
