@@ -291,6 +291,25 @@ document.addEventListener("DOMContentLoaded", function () {
         "interiorDesign": {
             "en": "Int. Des.",
             "ar": "التصميم الداخلي"
+        },
+        "interiorDesign2": {
+            "en": "Interior Design",
+            "ar": "التصميم الداخلي"
+        }
+        ,
+        "interiorDesignSubTitle": {
+            "en": "Designing Beautiful, Practical Interiors",
+            "ar": "تصميم مساحات جميلة وعملية"
+        }
+        ,
+        "interiorGalleryTitle": {
+            "en": "Our Pro Interior Designs",
+            "ar": "مشاريع التصميم الداخلي الاحترافية"
+        }
+        ,
+        "interiorGalleryHeading": {
+            "en": "Gallery",
+            "ar": "المعرض"
         }
         ,
         // Shop Drawings
@@ -317,11 +336,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "homeNav3": { en: "Home", ar: "الرئيسية" },
         "homeNav4": { en: "Home", ar: "الرئيسية" },
         "homeNav5": { en: "Home", ar: "الرئيسية" },
-        "aboutNav": { en: "About", ar: "من نحن" },
+        "aboutNav": { en: "About", ar: "من أنا" },
         "aboutNav2": { en: "About", ar: "من أنا" },
-        "aboutNav3": { en: "About", ar: "من نحن" },
-        "aboutNav4": { en: "About us", ar: "من نحن" },
-        "aboutNav5": { en: "About", ar: "من نحن" },
+        "aboutNav3": { en: "About", ar: "من أنا" },
+        "aboutNav4": { en: "About", ar: "من أنا" },
+        "aboutNav5": { en: "About", ar: "من أنا" },
         "projects": { en: "Projects", ar: "المشاريع" },
         "projects2": { en: "Projects", ar: "المشاريع" },
         "projects3": { en: "Projects", ar: "المشاريع" },
@@ -409,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         // About
-        "aboutTitle": { en: "About Us", ar: "من نحن" },
+        "aboutTitle": { en: "About", ar: "من أنا" },
         "aboutTitle2": { en: "About", ar: "من أنا" },
         "aboutHeading": {
             "en": "Passionate Architectural Engineer & Interior Design Specialist",
@@ -718,3 +737,4 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+

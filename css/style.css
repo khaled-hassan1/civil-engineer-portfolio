@@ -398,6 +398,32 @@ html[lang="ar"] .justify-content-start {
     background-size: cover;
 }
 
+.page-header.interior-design-header {
+    background-image: url(../img/interior-design-bg.jpeg);
+}
+
+.page-header.about-header {
+    background-image: url(../img/about-bg.jpg);
+}
+
+.page-header.projects-header {
+    background-image: url(../img/projects-bg.jpg);
+}
+
+.page-header.supv-impl-header {
+    background-image: url(../img/supv-impl.jpg);
+}
+
+.page-header.we-offer-header {
+    background-image: url(../img/we-offer-bg.jpg);
+}
+
+.page-header.contact-header {
+    background-image: url(../img/contact-bg.jpg);
+}
+
+
+
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
