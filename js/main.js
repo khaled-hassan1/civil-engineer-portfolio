@@ -287,16 +287,21 @@ document.addEventListener("DOMContentLoaded", function () {
             "ar": "صالات مرنة متعددة المستويات"
         }
         ,
-
+        //INTERIOR DESIGN
+        "interiorDesign": {
+            "en": "Int. Des.",
+            "ar": "التصميم الداخلي"
+        }
+        ,
         // Shop Drawings
         "shopDrawing": {
-            en: "Supervision and implementation",
+            en: "Supv. & Impl.",
             ar: "الإشراف والتنفيذ"
         }
         ,
         "shopDrawing1-2": {
-            en: "Supervision and implementation",
-            ar: "الإشراف والتنفيذ"
+            "en": "Supv. & Impl.",
+            "ar": "الإشراف والتنفيذ"
         }
         ,
         "shopDrawing2": {
