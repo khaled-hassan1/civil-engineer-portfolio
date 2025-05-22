@@ -349,14 +349,14 @@ document.addEventListener("DOMContentLoaded", function () {
         "servicesNav2": { en: "We offer", ar: "نقدم" },
         "servicesNav3": { en: "We offer", ar: "نقدم" },
         "servicesNav4": { en: "We offer", ar: "نقدم" },
-        "contactNav": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav2": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav3": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav4": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav5": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav6": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav7": { en: "Contact", ar: "اتصل بنا" },
-        "contactNav8": { en: "Contact", ar: "اتصل بنا" },
+        "contactNav": { en: "Contact", ar: "اتصل" },
+        "contactNav2": { en: "Contact", ar: "اتصل" },
+        "contactNav3": { en: "Contact", ar: "اتصل" },
+        "contactNav4": { en: "Contact", ar: "اتصل" },
+        "contactNav5": { en: "Contact", ar: "اتصل" },
+        "contactNav6": { en: "Contact", ar: "اتصل" },
+        "contactNav7": { en: "Contact", ar: "اتصل" },
+        "contactNav8": { en: "Contact", ar: "اتصل" },
         "languageButton": { en: "عربي", ar: "English" },
 
         // Carousel
@@ -377,7 +377,7 @@ document.addEventListener("DOMContentLoaded", function () {
             en: "With years of field experience and technical expertise, I manage projects that stand the test of time.",
             ar: "بفضل سنوات من الخبرة الميدانية والخبرة الفنية، أدير مشاريع تصمد أمام اختبار الزمن."
         },
-        "carouselButton3": { en: "Get In Touch", ar: "تواصل معي" },
+        "carouselButton3": { en: "Get In Touch", ar: "للتواصل" },
 
         // Facts
         "factTitle1": { en: "Structural Precision", ar: "الدقة الهيكلية" },
@@ -620,8 +620,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ,
 
         // Appointment/Contact
-        "getInTouchTitle": { en: "Get In Touch", ar: "تواصل معي" },
-        "getInTouchTitle2": { en: "Get In Touch", ar: "تواصل معي" },
+        "getInTouchTitle": { en: "Get In Touch", ar: "للتواصل" },
+        "getInTouchTitle2": { en: "Get In Touch", ar: "للتواصل" },
         "getInTouchHeading": {
             "en": "Let’s Discuss Your Project & Design Needs",
             "ar": "دعنا نناقش مشروعك واحتياجاتك الهندسية والتصميمية"
@@ -653,9 +653,9 @@ document.addEventListener("DOMContentLoaded", function () {
         },
 
         // Footer
-        "contactFooterTitle": { en: "Contact us", ar: "تواصل بنا" },
-        "contactFooterTitle2": { en: "Contact us", ar: "تواصل بنا" },
-        "contactFooterTitle3": { en: "Contact us", ar: "تواصل بنا" },
+        "contactFooterTitle": { en: "Contact", ar: "تواصل" },
+        "contactFooterTitle2": { en: "Contact", ar: "تواصل" },
+        "contactFooterTitle3": { en: "Contact", ar: "تواصل" },
         "addressText": { en: "123 Engineering St, City, Country", ar: "123 شارع الهندسة، المدينة، الدولة" },
         "addressText2": { en: "123 Engineering St, City, Country", ar: "123 شارع الهندسة، المدينة، الدولة" },
         "engineeringServicesTitle": { en: "Engineering Services", ar: "أعمالنا الهندسية" },
