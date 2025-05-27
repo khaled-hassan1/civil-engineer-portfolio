@@ -312,6 +312,10 @@ document.addEventListener("DOMContentLoaded", function () {
             "ar": "المعرض"
         }
         ,
+        // Gallery Section
+        "gallerySectionTitle": { en: "Our Pro Interior Designs", ar: "تصاميمنا الداخلية الاحترافية" },
+        "galleryMainHeading": { en: "Gallery", ar: "المعرض" },
+        "filterAll": { en: "All", ar: "الكل" },
         // Shop Drawings
         "shopDrawing": {
             en: "Supv. & Impl.",
