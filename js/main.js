@@ -93,9 +93,18 @@
 
 
 document.addEventListener("DOMContentLoaded", function () {
+    "use strict"; // Apply to this scope
     const languageButton = document.getElementById("languageButton");
 
     const elementsToTranslate = {
+        "pageTitle": {
+            en: "Arch.Aya Alsaadi - Professional Architectural Engineer | Structural Design & Construction Management",
+            ar: "م. آية السعدي - مهندسة معمارية محترفة | تصميم إنشائي وإدارة إنشاءات"
+        },
+        // Gallery Section
+        "gallerySectionTitle": { en: "Our Pro Interior Designs", ar: "تصاميمنا الداخلية الاحترافية" },
+        "galleryMainHeading": { en: "Gallery", ar: "المعرض" },
+        "filterAll": { en: "All", ar: "الكل" },
         // Projects section
         "projectsTitle": {
             en: "Our Projects",
@@ -685,6 +694,59 @@ document.addEventListener("DOMContentLoaded", function () {
         "phoneNumber1": { en: "+123 456 7890", ar: "+123 456 7890" },
         "phoneNumber2": { en: "+123 456 7890", ar: "+123 456 7890" },
         "phoneNumber3": { en: "+123 456 7890", ar: "+123 456 7890" },
+        // Page Title (from data attributes, but we can use ID for consistency if added to title tag itself)
+        // Navbar
+        "brandName": { en: "Aya Alsaadi", ar: "آية السعدي" },
+        "homeNav": { en: "Home", ar: "الرئيسية" },
+        "aboutNav": { en: "About Me", ar: "عني" },
+        "projectsNav": { en: "Projects", ar: "المشاريع" },
+        "shopDrawingNav": { en: "Supv. & Impl.", ar: "إشراف وتنفيذ" },
+        "interiorDesignNav": { en: "Int. Des.", ar: "تصميم داخلي" },
+        "ourBusinessNav": { en: "Our business", ar: "أعمالنا" }, // Match with your other page
+        "contactNav": { en: "Contact", ar: "اتصل بنا" },
+        "languageButtonText": { en: "عربي", ar: "English" },
+
+        // Page Header
+        "pageHeaderTitle": { en: "Interior Design", ar: "تصميم داخلي" },
+        "pageHeaderSubtitle": { en: "Designing Beautiful, Practical Interiors", ar: "تصميم داخلي جميل وعملي" },
+
+
+
+        // Example Gallery Item Titles (Add IDs to h4 tags in gallery items)
+        "imgTitle1": { en: "Living Room Elegance", ar: "أناقة غرفة المعيشة" },
+        "imgTitle2": { en: "Modern Office Space", ar: "مساحة مكتب حديثة" },
+        "imgTitle3": { en: "Bedroom Serenity", ar: "صفاء غرفة النوم" },
+        "imgTitle4": { en: "Functional Kitchen", ar: "مطبخ عملي" },
+        "imgTitle5": { en: "Retail Space", ar: "مساحة تجارية (محل)" },
+        "imgTitle6": { en: "Luxury Bathroom", ar: "حمام فاخر" },
+        "imgTitle7": { en: "Cozy Corner", ar: "ركن مريح" },
+        "imgTitle8": { en: "Lobby Design", ar: "تصميم ردهة (لوبي)" },
+        "imgTitle9": { en: "Dining Area", ar: "منطقة طعام" },
+        "imgTitle10": { en: "Study Room", ar: "غرفة دراسة" },
+        "imgTitle11": { en: "Cafe Interior", ar: "تصميم داخلي لمقهى" },
+        "imgTitle12": { en: "Modern Apartment", ar: "شقة حديثة" },
+        "imgTitle13": { en: "Kids Room", ar: "غرفة أطفال" },
+        "imgTitle14": { en: "Boutique Store", ar: "متجر بوتيك" },
+        "imgTitle15": { en: "Villa Interior", ar: "تصميم داخلي لفيلا" },
+        "imgTitle16": { en: "Restaurant Design", ar: "تصميم مطعم" },
+
+        // Footer
+        "contactFooterTitle": { en: "Contact", ar: "اتصل بنا" },
+        "engineeringServicesTitle": { en: "Engineering Services", ar: "خدمات هندسية" },
+        "structuralLink": { en: "Structural Design", ar: "تصميم إنشائي" },
+        "supervisionLink": { en: "Project Supervision", ar: "إشراف مشاريع" },
+        "footerInteriorDesignLink": { en: "Interior Design", ar: "تصميم داخلي" },
+        "footerEngSupervisionLink": { en: "Engineering Supervision", ar: "إشراف هندسي" },
+        "footerReportPrepLink": { en: "Report Preparation & Editing", ar: "إعداد وتحرير التقارير" },
+        "quickLinksTitle": { en: "Quick Links", ar: "روابط سريعة" },
+        "footerHomeNav": { en: "Home", ar: "الرئيسية" },
+        "footerAboutMeLink": { en: "About Me", ar: "عني" },
+        "footerProjectsNav": { en: "Projects", ar: "المشاريع" },
+        "footerShopDrawingNav": { en: "Supv. & Impl.", ar: "إشراف وتنفيذ" },
+        "footerContactNav": { en: "Contact", ar: "اتصل بنا" },
+        "footerOurBusinessNav": { en: "Our business", ar: "أعمالنا" },
+        "allRightsReserved": { en: "All Rights Reserved", ar: "جميع الحقوق محفوظة" },
+        "designedByText": { en: "Designed by", ar: "تصميم بواسطة" }
     };
 
     let currentLanguage = localStorage.getItem("language") || "ar";
@@ -740,5 +802,108 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+    // --- GLightbox Initialization ---
+    if (typeof GLightbox !== 'undefined' && document.querySelector('.glightbox')) {
+        GLightbox({ // Corrected
+            selector: '.glightbox',
+            touchNavigation: true,
+            loop: true,
+            autoplayVideos: true,
+            zoomable: true
+        });
+    } else if (document.querySelector('.glightbox')) {
+        console.warn('GLightbox library not found, but .glightbox elements are present.');
+    }
+
+    // --- Isotope Gallery Filter ---
+    let portfolioContainer = document.querySelector('.portfolio-container');
+    if (portfolioContainer && typeof Isotope !== 'undefined') {
+        console.log('Isotope Init: Library and container OK.');
+        let portfolioIsotope = new Isotope(portfolioContainer, {
+            itemSelector: '.portfolio-item',
+            layoutMode: 'fitRows'
+        });
+        console.log('Isotope instance:', portfolioIsotope);
+
+        let portfolioFilters = document.querySelectorAll('#portfolio-flters li');
+        portfolioFilters.forEach(function (filter) {
+            filter.addEventListener('click', function (e) {
+                e.preventDefault();
+                console.log('Filter click:', this.getAttribute('data-filter'));
+                portfolioFilters.forEach(function (el) {
+                    el.classList.remove('active', 'btn-primary'); // Remove both
+                    el.classList.add('btn-outline-primary');
+                });
+                this.classList.add('active', 'btn-primary');
+                this.classList.remove('btn-outline-primary');
+
+                portfolioIsotope.arrange({
+                    filter: this.getAttribute('data-filter')
+                });
+
+                if (typeof AOS !== 'undefined') {
+                    AOS.refresh();
+                }
+            });
+        });
+    } else {
+        if (!portfolioContainer) console.warn('Portfolio container .portfolio-container not found for Isotope.');
+        if (typeof Isotope === 'undefined') console.warn('Isotope library not found.');
+    }
 });
 
+// window.addEventListener('DOMContentLoaded', () => {
+
+//     /**
+//      * GLightbox Initialization
+//      */
+//     if (typeof GLightbox !== 'undefined') {
+//         const lightbox = lightbox({
+//             selector: '.glightbox',
+//             touchNavigation: true,
+//             loop: true,
+//             autoplayVideos: true,
+//             zoomable: true
+//         });
+//     } else {
+//         console.warn('GLightbox not found.');
+//     }
+
+//     /**
+//      * Isotope Gallery Filter
+//      */
+//     let portfolioContainer = document.querySelector('.portfolio-container');
+//     if (portfolioContainer && typeof Isotope !== 'undefined') {
+//         let portfolioIsotope = new Isotope(portfolioContainer, {
+//             itemSelector: '.portfolio-item',
+//             layoutMode: 'fitRows' // or 'masonry'
+//         });
+
+//         let portfolioFilters = document.querySelectorAll('#portfolio-flters li');
+
+//         portfolioFilters.forEach(function (filter) {
+//             filter.addEventListener('click', function (e) {
+//                 e.preventDefault();
+//                 portfolioFilters.forEach(function (el) {
+//                     el.classList.remove('active');
+//                     el.classList.remove('btn-primary'); // If primary is active state
+//                     el.classList.add('btn-outline-primary');
+//                 });
+//                 this.classList.add('active');
+//                 this.classList.add('btn-primary');
+//                 this.classList.remove('btn-outline-primary');
+
+
+//                 portfolioIsotope.arrange({
+//                     filter: this.getAttribute('data-filter')
+//                 });
+//                 if (typeof AOS !== 'undefined') { // If you use AOS animations
+//                     AOS.refresh();
+//                 }
+//             });
+//         });
+//     } else {
+//         if (!portfolioContainer) console.warn('Portfolio container not found for Isotope.');
+//         if (typeof Isotope === 'undefined') console.warn('Isotope library not found.');
+//     }
+// }); // End DOMContentLoaded
